@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Runs the experiment for each country as subprocesses
+# Author: Gloire Rubambiza
+# Version: 07/21/2017
+
+cd $1
+./Traceroute$1.py $1 &
+cd ..
