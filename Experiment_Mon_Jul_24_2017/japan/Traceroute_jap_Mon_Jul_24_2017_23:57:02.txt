@@ -1,0 +1,31 @@
+traceroute to ec2-13-112-67-36.ap-northeast-1.compute.amazonaws.com (13.112.67.36), 30 hops max, 60 byte packets
+ 1  rwanda-fw-252.net.rwanda.cmu.local (172.29.52.1)  1.540 ms  1.643 ms  1.924 ms
+ 2  41.74.174.49 (41.74.174.49)  6.152 ms  6.242 ms  8.167 ms
+ 3  197.243.126.165 (197.243.126.165)  8.379 ms  8.364 ms  8.340 ms
+ 4  192.168.1.253 (192.168.1.253)  8.247 ms  8.222 ms  8.195 ms
+ 5  192.168.1.230 (192.168.1.230)  8.178 ms  8.176 ms  8.151 ms
+ 6  197.243.126.29 (197.243.126.29)  8.123 ms  2.460 ms  4.250 ms
+ 7  41.223.224.210 (41.223.224.210)  4.658 ms  5.465 ms  5.497 ms
+ 8  197.155.94.164.liquidtelecom.net (197.155.94.164)  213.721 ms  213.719 ms  213.716 ms
+ 9  teng0-0-1-3.lug-p1-kpl.liquidtelecom.net (197.155.94.80)  213.690 ms  213.687 ms  213.683 ms
+10  teng0-0-1-3-p1-kpl.liquidtelecom.net (197.155.94.19)  213.679 ms teng0-1-1-1.lke-p1-nbi.liquidtelecom.net (197.155.94.68)  213.649 ms  213.653 ms
+11  197.155.94.169.liquidtelecom.net (197.155.94.169)  131.171 ms ten-0-1-1-2-p2-msa.liquidtelecom.net (197.155.94.73)  131.161 ms teng0-0-1-0-p2-msa.liquidtelecom.net (197.155.94.11)  131.115 ms
+12  teng-0-0-1-2-pe1-fuj.liquidtelecom.net (197.155.94.82)  126.962 ms  74.766 ms  74.793 ms
+13  teng0-0-0-1-luk-p2-tho.liquidtelecom.net (5.11.10.214)  267.870 ms  267.952 ms  267.872 ms
+14  teng0-0-0-0-luk-pe1-tcy.liquidtelecom.net (5.11.10.99)  267.905 ms  267.916 ms  267.863 ms
+15  tenge13-2.br02.ams01.pccwbtn.net (80.249.209.37)  268.143 ms  268.107 ms  268.075 ms
+16  tenge0-1-0-16.br02.tok02.pccwbtn.net (63.223.33.193)  472.722 ms tenge0-0-0-18.br02.tok02.pccwbtn.net (63.223.33.61)  471.004 ms tenge0-0-0-16.br02.tok02.pccwbtn.net (63.223.33.57)  470.928 ms
+17  tenge0-0-0-16.br02.tok02.pccwbtn.net (63.223.33.57)  470.462 ms tenge0-0-0-18.br02.tok02.pccwbtn.net (63.223.33.61)  472.537 ms tenge0-0-0-16.br02.tok02.pccwbtn.net (63.223.33.57)  472.284 ms
+18  63-216-242-78.static.pccwglobal.net (63.216.242.78)  424.509 ms 63-216-242-54.static.pccwglobal.net (63.216.242.54)  422.445 ms 63-216-242-78.static.pccwglobal.net (63.216.242.78)  424.261 ms
+19  52.95.30.147 (52.95.30.147)  428.570 ms  429.030 ms 52.95.30.149 (52.95.30.149)  433.120 ms
+20  52.95.30.82 (52.95.30.82)  423.589 ms 52.95.30.84 (52.95.30.84)  424.856 ms 52.95.30.72 (52.95.30.72)  424.300 ms
+21  27.0.0.160 (27.0.0.160)  425.607 ms 27.0.0.152 (27.0.0.152)  429.409 ms  429.279 ms
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
