@@ -1,0 +1,26 @@
+traceroute to ec2-13-113-183-15.ap-northeast-1.compute.amazonaws.com (13.113.183.15), 30 hops max, 60 byte packets
+ 1  rwanda-fw-252.net.rwanda.cmu.local (172.29.52.1)  1.556 ms  1.719 ms  1.907 ms
+ 2  41.74.174.49 (41.74.174.49)  4.533 ms  4.567 ms  4.639 ms
+ 3  197.243.126.165 (197.243.126.165)  5.011 ms  5.459 ms  6.576 ms
+ 4  192.168.1.253 (192.168.1.253)  6.552 ms  6.539 ms  6.541 ms
+ 5  192.168.1.230 (192.168.1.230)  6.432 ms  6.395 ms  6.363 ms
+ 6  197.243.126.29 (197.243.126.29)  6.332 ms  4.118 ms  4.405 ms
+ 7  41.223.224.210 (41.223.224.210)  5.170 ms  5.150 ms  5.115 ms
+ 8  197.155.94.164.liquidtelecom.net (197.155.94.164)  194.417 ms  194.272 ms  194.164 ms
+ 9  teng0-0-1-3.lug-p1-kpl.liquidtelecom.net (197.155.94.80)  194.006 ms 197.155.94.148.liquidtelecom.net (197.155.94.148)  193.970 ms teng0-0-1-3.lug-p1-kpl.liquidtelecom.net (197.155.94.80)  193.849 ms
+10  teng0-0-1-3-p1-kpl.liquidtelecom.net (197.155.94.19)  193.235 ms  193.156 ms teng0-1-1-1.lke-p1-nbi.liquidtelecom.net (197.155.94.68)  193.068 ms
+11  teng0-0-1-0-p2-msa.liquidtelecom.net (197.155.94.11)  27.100 ms 197.155.94.169.liquidtelecom.net (197.155.94.169)  25.770 ms ten-0-1-1-2-p2-msa.liquidtelecom.net (197.155.94.73)  24.917 ms
+12  teng-0-0-1-2-pe1-fuj.liquidtelecom.net (197.155.94.82)  75.630 ms  72.237 ms  74.939 ms
+13  teng0-0-0-1-luk-p2-tho.liquidtelecom.net (5.11.10.214)  183.023 ms  243.626 ms  243.100 ms
+14  teng0-0-0-0-luk-pe1-tcy.liquidtelecom.net (5.11.10.99)  243.582 ms  243.575 ms  243.502 ms
+15  tenge13-2.br02.ams01.pccwbtn.net (80.249.209.37)  243.566 ms  243.536 ms  243.528 ms
+16  tenge0-1-0-18.br02.tok02.pccwbtn.net (63.223.33.197)  448.265 ms  448.287 ms tenge0-0-0-18.br02.tok02.pccwbtn.net (63.223.33.61)  448.288 ms
+17  tenge0-1-0-18.br02.tok02.pccwbtn.net (63.223.33.197)  447.803 ms tenge0-0-0-16.br02.tok02.pccwbtn.net (63.223.33.57)  448.244 ms  448.188 ms
+18  63-216-242-78.static.pccwglobal.net (63.216.242.78)  448.174 ms 63-216-242-54.static.pccwglobal.net (63.216.242.54)  421.839 ms 63-218-251-238.static.pccwglobal.net (63.218.251.238)  516.312 ms
+19  52.95.30.145 (52.95.30.145)  489.009 ms 52.95.30.149 (52.95.30.149)  488.897 ms 52.95.30.165 (52.95.30.165)  488.855 ms
+20  52.95.30.120 (52.95.30.120)  488.784 ms  488.661 ms 52.95.30.126 (52.95.30.126)  488.678 ms
+21  52.95.30.210 (52.95.30.210)  488.615 ms 52.95.30.218 (52.95.30.218)  423.626 ms 52.95.30.206 (52.95.30.206)  423.539 ms
+22  * * *
+23  * * *
+24  * * *
+25  ec2-13-113-183-15.ap-northeast-1.compute.amazonaws.com (13.113.183.15)  531.653 ms  531.602 ms  531.553 ms

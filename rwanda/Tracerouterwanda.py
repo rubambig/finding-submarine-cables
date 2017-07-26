@@ -1,4 +1,4 @@
-#!/usr/bin/python3.4
+#!/usr/bin/python3.5
 
 # Repeats traceroute for each web server after a sleep time of 5 minutes.
 # Author: Gloire Rubambiza

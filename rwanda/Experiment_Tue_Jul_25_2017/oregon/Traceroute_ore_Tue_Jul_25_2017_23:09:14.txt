@@ -1,0 +1,31 @@
+traceroute to ec2-34-213-69-133.us-west-2.compute.amazonaws.com (34.213.69.133), 30 hops max, 60 byte packets
+ 1  rwanda-fw-252.net.rwanda.cmu.local (172.29.52.1)  1.624 ms  2.011 ms  2.125 ms
+ 2  41.74.174.49 (41.74.174.49)  4.767 ms  4.832 ms  4.914 ms
+ 3  197.243.126.165 (197.243.126.165)  5.368 ms  5.352 ms  5.327 ms
+ 4  192.168.1.253 (192.168.1.253)  5.301 ms  5.237 ms  5.211 ms
+ 5  192.168.1.230 (192.168.1.230)  5.180 ms  5.188 ms  5.162 ms
+ 6  197.243.126.29 (197.243.126.29)  19.474 ms  7.540 ms  7.710 ms
+ 7  41.223.224.210 (41.223.224.210)  3.135 ms  4.495 ms  4.990 ms
+ 8  197.155.94.164.liquidtelecom.net (197.155.94.164)  162.348 ms  164.710 ms  164.715 ms
+ 9  pos0-1-1-2-p1-msa.liquidtelecom.net (197.155.94.42)  164.706 ms teng0-2-0-0.lke-p2-nbi.liquidtelecom.net (197.155.94.96)  164.591 ms pos0-1-1-2-p1-msa.liquidtelecom.net (197.155.94.42)  164.550 ms
+10  ten-0-1-1-1-p1-msa.liquidtelecom.net (197.155.94.75)  24.351 ms  25.101 ms 197.155.94.167.liquidtelecom.net (197.155.94.167)  25.103 ms
+11  teng0-0-1-0-0-lfr-pe1-mrs.liquidtelecom.net (5.11.10.122)  164.364 ms  164.291 ms  161.561 ms
+12  teng0-3-0-4.luk-p1-tho.liquidtelecom.net (5.11.10.121)  161.774 ms  161.874 ms  163.400 ms
+13  bundle-ether3-luk-pe1-tho.liquidtelecom.net (5.11.10.103)  163.415 ms  163.404 ms  163.373 ms
+14  ten0-0-2-0-luk-pr1-tho.liquidtelecom.net (5.11.10.202)  163.385 ms  163.384 ms  163.379 ms
+15  * mil-cr01-te6-2.lnd.stream-internet.net (195.66.224.218)  163.352 ms *
+16  tct-cr02-ae2.192.ams.stream-internet.net (195.34.53.81)  172.245 ms  172.274 ms  172.247 ms
+17  anc-cr03-ae5.131.ff.stream-internet.net (212.188.42.18)  220.508 ms  221.518 ms *
+18  radio-cr01-ae4.135.hel.stream-internet.net (195.34.53.57)  286.438 ms  286.328 ms  286.280 ms
+19  mmon-cr01-be3.78.spb.stream-internet.net (212.188.29.110)  286.078 ms  286.069 ms  286.030 ms
+20  a433-cr01-be1.78.msk.stream-internet.net (212.188.2.54)  285.996 ms  285.954 ms  285.812 ms
+21  m9-cr05-ae9.77.msk.stream-internet.net (212.188.28.137)  285.773 ms  285.701 ms  240.648 ms
+22  * m9-cr03-ae1.199.msk.stream-internet.net (195.34.53.50)  222.919 ms  223.077 ms
+23  * * *
+24  * * *
+25  * * *
+26  ae45.stkm-cr4.intl.ip.rostelecom.ru (87.226.133.133)  224.326 ms * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
