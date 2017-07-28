@@ -1,0 +1,31 @@
+traceroute to www.startel.ao (41.222.236.20), 30 hops max, 60 byte packets
+ 1  rwanda-fw-252.net.rwanda.cmu.local (172.29.52.1)  1.499 ms  1.807 ms  2.117 ms
+ 2  41.74.174.49 (41.74.174.49)  4.892 ms  4.283 ms  4.367 ms
+ 3  197.243.126.165 (197.243.126.165)  4.949 ms  4.957 ms  4.887 ms
+ 4  192.168.1.253 (192.168.1.253)  4.792 ms  4.780 ms  4.713 ms
+ 5  192.168.1.230 (192.168.1.230)  5.872 ms  5.873 ms  5.768 ms
+ 6  197.243.126.29 (197.243.126.29)  4.532 ms  2.729 ms  3.101 ms
+ 7  41.223.224.210 (41.223.224.210)  4.568 ms  5.292 ms  5.276 ms
+ 8  197.155.94.164.liquidtelecom.net (197.155.94.164)  68.703 ms  70.220 ms  70.200 ms
+ 9  pos0-1-1-2-p1-msa.liquidtelecom.net (197.155.94.42)  70.120 ms  70.121 ms teng0-2-0-0.lke-p2-nbi.liquidtelecom.net (197.155.94.96)  70.098 ms
+10  ten-0-1-1-1-p1-msa.liquidtelecom.net (197.155.94.75)  24.644 ms teng0-0-1-3-p1-msa.liquidtelecom.net (197.155.94.9)  25.121 ms ten-0-1-1-1-p1-msa.liquidtelecom.net (197.155.94.75)  24.618 ms
+11  gi2-0-0.lza-p2-jhb.liquidtelecom.net (77.246.57.69)  71.535 ms  71.537 ms  71.417 ms
+12  eth-trunk-1-pe2-jhb.liquidtelecom.net (46.17.232.13)  71.392 ms  69.116 ms  69.231 ms
+13  angolacables.ixp.joburg (196.60.8.60)  231.342 ms  231.548 ms  231.124 ms
+14  pe1-nc016.ang.lad.as37468.angolacables.ao (197.149.149.113)  263.833 ms pe2-ne026.ang.lad.as37468.angolacables.ao (197.149.149.117)  262.043 ms pe1-nc016.ang.lad.as37468.angolacables.ao (197.149.149.113)  263.788 ms
+15  pe2-ne022.ang.lad.as37468.angolacables.ao (197.149.151.19)  262.026 ms  262.005 ms  261.984 ms
+16  197.149.148.237 (197.149.148.237)  264.724 ms  264.501 ms  265.266 ms
+17  41.222.238.26 (41.222.238.26)  265.036 ms  265.380 ms  265.415 ms
+18  41.222.238.7 (41.222.238.7)  264.158 ms  261.078 ms  261.082 ms
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
