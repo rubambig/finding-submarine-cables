@@ -1,0 +1,26 @@
+traceroute to www.unikin.cd (173.254.28.57), 30 hops max, 60 byte packets
+ 1  rwanda-fw-252.net.rwanda.cmu.local (172.29.52.1)  1.684 ms  1.812 ms  2.029 ms
+ 2  41.74.174.49 (41.74.174.49)  14.661 ms  14.754 ms  14.899 ms
+ 3  197.243.126.165 (197.243.126.165)  5.463 ms  5.461 ms  5.819 ms
+ 4  192.168.1.253 (192.168.1.253)  4.734 ms  5.421 ms  5.420 ms
+ 5  192.168.1.230 (192.168.1.230)  5.761 ms  5.770 ms  5.766 ms
+ 6  197.243.126.29 (197.243.126.29)  5.768 ms  3.977 ms  4.027 ms
+ 7  41.223.224.210 (41.223.224.210)  4.577 ms  4.938 ms  5.723 ms
+ 8  197.155.94.164.liquidtelecom.net (197.155.94.164)  163.382 ms  163.389 ms  163.374 ms
+ 9  teng0-2-0-0.lke-p2-nbi.liquidtelecom.net (197.155.94.96)  163.361 ms pos0-1-1-2-p1-msa.liquidtelecom.net (197.155.94.42)  163.327 ms teng0-2-0-0.lke-p2-nbi.liquidtelecom.net (197.155.94.96)  163.314 ms
+10  ten-0-1-1-1-p1-msa.liquidtelecom.net (197.155.94.75)  25.229 ms teng0-0-1-3-p1-msa.liquidtelecom.net (197.155.94.9)  25.218 ms ten-0-1-1-1-p1-msa.liquidtelecom.net (197.155.94.75)  23.422 ms
+11  teng0-0-1-0-0-lfr-pe1-mrs.liquidtelecom.net (5.11.10.122)  161.289 ms  162.092 ms  161.734 ms
+12  teng0-3-0-4.luk-p1-tho.liquidtelecom.net (5.11.10.121)  161.581 ms  161.747 ms  208.223 ms
+13  bundle-ether3-luk-pe1-tho.liquidtelecom.net (5.11.10.103)  208.903 ms  208.910 ms  208.561 ms
+14  xe-0-2-0-1.r00.londen10.uk.bb.gin.ntt.net (83.231.146.209)  208.895 ms  171.519 ms  171.499 ms
+15  ae-13.r24.londen12.uk.bb.gin.ntt.net (129.250.4.25)  171.494 ms  171.490 ms  171.483 ms
+16  ae-5.r24.nycmny01.us.bb.gin.ntt.net (129.250.2.18)  234.096 ms  228.562 ms  228.674 ms
+17  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  296.690 ms  296.498 ms  300.265 ms
+18  ae-0.r21.sttlwa01.us.bb.gin.ntt.net (129.250.2.54)  302.504 ms  302.741 ms  357.818 ms
+19  ae-3.r23.snjsca04.us.bb.gin.ntt.net (129.250.3.124)  357.149 ms  372.460 ms  378.913 ms
+20  ae-41.r02.snjsca04.us.bb.gin.ntt.net (129.250.6.119)  357.735 ms ae-45.r01.snjsca04.us.bb.gin.ntt.net (129.250.3.175)  427.490 ms  426.251 ms
+21  ae-1.a01.snjsca04.us.bb.gin.ntt.net (129.250.2.48)  368.985 ms  366.133 ms  373.453 ms
+22  ae-0.endurance.snjsca04.us.bb.gin.ntt.net (129.250.195.138)  392.452 ms  388.807 ms  404.060 ms
+23  162-144-240-159.unifiedlayer.com (162.144.240.159)  388.656 ms 162-144-240-151.unifiedlayer.com (162.144.240.151)  401.200 ms 162-144-240-167.unifiedlayer.com (162.144.240.167)  357.970 ms
+24  162-144-240-15.unifiedlayer.com (162.144.240.15)  449.524 ms 162-144-240-23.unifiedlayer.com (162.144.240.23)  357.903 ms  357.860 ms
+25  just57.justhost.com (173.254.28.57)  357.861 ms  357.863 ms *

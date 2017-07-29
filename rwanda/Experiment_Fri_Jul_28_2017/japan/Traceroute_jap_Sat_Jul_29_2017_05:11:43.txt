@@ -1,0 +1,31 @@
+traceroute to ec2-52-199-67-14.ap-northeast-1.compute.amazonaws.com (52.199.67.14), 30 hops max, 60 byte packets
+ 1  rwanda-fw-252.net.rwanda.cmu.local (172.29.52.1)  2.340 ms  2.438 ms  2.571 ms
+ 2  41.74.174.49 (41.74.174.49)  5.225 ms  5.315 ms  5.412 ms
+ 3  197.243.126.165 (197.243.126.165)  5.864 ms  5.857 ms  5.850 ms
+ 4  192.168.1.253 (192.168.1.253)  5.843 ms  6.281 ms  6.521 ms
+ 5  192.168.1.230 (192.168.1.230)  5.815 ms  5.806 ms  5.797 ms
+ 6  197.243.126.29 (197.243.126.29)  5.790 ms  2.480 ms  6.098 ms
+ 7  41.223.224.210 (41.223.224.210)  6.347 ms  6.446 ms  6.443 ms
+ 8  197.155.94.164.liquidtelecom.net (197.155.94.164)  263.083 ms  263.078 ms  263.072 ms
+ 9  197.155.94.148.liquidtelecom.net (197.155.94.148)  263.067 ms  263.063 ms  263.059 ms
+10  teng0-1-1-1.lke-p1-nbi.liquidtelecom.net (197.155.94.68)  263.016 ms  263.023 ms teng0-0-1-3-p1-kpl.liquidtelecom.net (197.155.94.19)  263.018 ms
+11  teng0-0-1-0-p2-msa.liquidtelecom.net (197.155.94.11)  119.595 ms  119.575 ms ten-0-1-1-2-p2-msa.liquidtelecom.net (197.155.94.73)  119.561 ms
+12  teng-0-0-1-2-pe1-fuj.liquidtelecom.net (197.155.94.82)  256.906 ms  72.718 ms  72.686 ms
+13  teng0-0-0-1-luk-p2-tho.liquidtelecom.net (5.11.10.214)  213.314 ms  213.262 ms  213.209 ms
+14  teng0-0-0-0-luk-pe1-tcy.liquidtelecom.net (5.11.10.99)  213.178 ms  213.143 ms  213.095 ms
+15  tenge13-2.br02.ams01.pccwbtn.net (80.249.209.37)  213.063 ms  213.027 ms  212.982 ms
+16  tenge4-2.br01.tok02.pccwbtn.net (63.218.250.37)  487.962 ms  487.919 ms  487.877 ms
+17  tenge0-3-0-7.br02.tok02.pccwbtn.net (63.218.250.121)  487.486 ms  487.780 ms tenge0-3-0-9.br02.tok02.pccwbtn.net (63.218.250.133)  458.867 ms
+18  63-216-242-78.static.pccwglobal.net (63.216.242.78)  427.617 ms 63-216-242-54.static.pccwglobal.net (63.216.242.54)  460.464 ms 63-218-251-238.static.pccwglobal.net (63.218.251.238)  460.513 ms
+19  * * *
+20  * * *
+21  * 27.0.0.152 (27.0.0.152)  423.418 ms 27.0.0.160 (27.0.0.160)  421.270 ms
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
