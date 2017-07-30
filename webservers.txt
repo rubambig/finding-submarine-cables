@@ -3,7 +3,7 @@ angola,www.startel.ao
 congo_DR,www.unikin.cd
 ghana,www.ug.edu.gh
 kenya,www.ku.ac.ke
-japan,ec2-52-199-67-14.ap-northeast-1.compute.amazonaws.com
-oregon,ec2-52-38-57-216.us-west-2.compute.amazonaws.com
+japan,ec2-13-114-28-7.ap-northeast-1.compute.amazonaws.com
+oregon,ec2-34-213-101-52.us-west-2.compute.amazonaws.com
 rwanda,webmail.rwanda.cmu.edu
 uganda,www.utl.co.ug
