@@ -1,0 +1,29 @@
+traceroute to www.unikin.cd (173.254.28.57), 30 hops max, 60 byte packets
+ 1  gateway (192.168.230.1)  3.311 ms  3.304 ms  3.487 ms
+ 2  192.168.15.2 (192.168.15.2)  3.253 ms  3.243 ms  3.232 ms
+ 3  192.168.3.176 (192.168.3.176)  3.432 ms  3.970 ms  3.963 ms
+ 4  192.168.3.248 (192.168.3.248)  3.953 ms  3.941 ms  3.929 ms
+ 5  197.243.115.237 (197.243.115.237)  5.100 ms  3.902 ms  5.053 ms
+ 6  192.168.120.45 (192.168.120.45)  7.141 ms  8.885 ms  8.843 ms
+ 7  192.168.1.241 (192.168.1.241)  8.840 ms  8.949 ms  8.933 ms
+ 8  197.243.126.29 (197.243.126.29)  3.839 ms  3.955 ms  3.785 ms
+ 9  41.223.224.210 (41.223.224.210)  226.686 ms  226.638 ms  226.595 ms
+10  197.155.94.164.liquidtelecom.net (197.155.94.164)  215.671 ms  215.616 ms  215.605 ms
+11  teng0-2-0-0.lke-p2-nbi.liquidtelecom.net (197.155.94.96)  215.560 ms * pos0-1-1-2-p1-msa.liquidtelecom.net (197.155.94.42)  209.424 ms
+12  teng0-0-1-3-p1-msa.liquidtelecom.net (197.155.94.9)  222.488 ms  222.414 ms 197.155.94.167.liquidtelecom.net (197.155.94.167)  222.286 ms
+13  teng0-0-1-0-0-lfr-pe1-mrs.liquidtelecom.net (5.11.10.122)  209.158 ms  213.795 ms  216.008 ms
+14  teng0-3-0-4.luk-p1-tho.liquidtelecom.net (5.11.10.121)  216.001 ms  382.694 ms  382.630 ms
+15  bundle-ether3-luk-pe1-tho.liquidtelecom.net (5.11.10.103)  382.591 ms  382.556 ms  382.514 ms
+16  xe-0-2-0-1.r00.londen10.uk.bb.gin.ntt.net (83.231.146.209)  382.457 ms  382.425 ms  325.334 ms
+17  ae-13.r24.londen12.uk.bb.gin.ntt.net (129.250.4.25)  325.275 ms  325.252 ms  325.214 ms
+18  ae-5.r24.nycmny01.us.bb.gin.ntt.net (129.250.2.18)  325.209 ms  325.196 ms  325.167 ms
+19  * ae-1.r25.nycmny01.us.bb.gin.ntt.net (129.250.3.207)  325.172 ms  295.293 ms
+20  ae-9.r22.asbnva02.us.bb.gin.ntt.net (129.250.2.149)  290.581 ms  290.638 ms  295.308 ms
+21  ae-6.r22.dllstx09.us.bb.gin.ntt.net (129.250.5.12)  326.652 ms  326.701 ms  326.680 ms
+22  ae-2.r10.dllstx09.us.bb.gin.ntt.net (129.250.4.82)  332.399 ms ae-2.r11.dllstx09.us.bb.gin.ntt.net (129.250.5.14)  327.675 ms ae-2.r10.dllstx09.us.bb.gin.ntt.net (129.250.4.82)  325.678 ms
+23  ce-0-16-0-3.r11.dllstx09.us.ce.gin.ntt.net (131.103.117.42)  322.001 ms  327.462 ms  327.683 ms
+24  162-215-243-9.unifiedlayer.com (162.215.243.9)  327.413 ms  327.452 ms  363.890 ms
+25  * 162-215-243-235.unifiedlayer.com (162.215.243.235)  379.373 ms  380.402 ms
+26  * 162-144-240-145.unifiedlayer.com (162.144.240.145)  386.952 ms 162-144-240-163.unifiedlayer.com (162.144.240.163)  433.612 ms
+27  162-144-240-11.unifiedlayer.com (162.144.240.11)  383.355 ms 162-144-240-19.unifiedlayer.com (162.144.240.19)  373.096 ms 162-144-240-11.unifiedlayer.com (162.144.240.11)  371.266 ms
+28  just57.justhost.com (173.254.28.57)  444.962 ms  437.686 ms  430.294 ms
