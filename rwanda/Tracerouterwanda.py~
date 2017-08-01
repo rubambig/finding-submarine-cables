@@ -16,11 +16,7 @@ print("The sender is %s\n" % sender)
 
 # Get the directory where to send the file for an experiment.
 directory = subprocess.check_output("./Dir_Creation", universal_newlines=True)
-if len(directory) > 25:
-    directory = directory[:25]
-else:
-    directory = directory[:26]
-
+directory = directory[:26]
 
 # To be used as the template of return codes.
 # It is supposed to be 0, i.e. success every time.
