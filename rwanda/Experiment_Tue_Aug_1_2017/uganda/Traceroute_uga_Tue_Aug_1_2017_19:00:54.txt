@@ -1,0 +1,15 @@
+traceroute to www.utl.co.ug (196.0.3.3), 30 hops max, 60 byte packets
+ 1  rwanda-fw-252.net.rwanda.cmu.local (172.29.52.1)  1.514 ms  1.669 ms  1.789 ms
+ 2  41.74.174.49 (41.74.174.49)  4.479 ms  4.696 ms  4.768 ms
+ 3  197.243.126.165 (197.243.126.165)  5.322 ms  5.502 ms  5.507 ms
+ 4  192.168.1.253 (192.168.1.253)  5.722 ms  5.717 ms  5.975 ms
+ 5  192.168.1.230 (192.168.1.230)  6.162 ms  6.166 ms  6.158 ms
+ 6  197.243.126.29 (197.243.126.29)  5.661 ms  3.212 ms  4.709 ms
+ 7  41.223.224.210 (41.223.224.210)  5.037 ms  5.090 ms  5.172 ms
+ 8  teng0-0-1-0-pe1-kgl.liquidtelecom.net (197.155.94.28)  11.218 ms teng0-0-1-1-lrw-pe1-kgl.liquidtelecom.net (197.155.94.58)  11.242 ms  11.218 ms
+ 9  gig0-0-0-17-lug-p1-kpl.liquidtelecom.net (197.155.94.56)  11.202 ms gi0-0-0-16.lug-p1-kpl.liquidtelecom.net (197.155.94.142)  11.203 ms gig0-0-0-17-lug-p1-kpl.liquidtelecom.net (197.155.94.56)  11.168 ms
+10  teng0-0-1-0-pe1-kpl.liquidtelecom.net (197.155.94.23)  11.970 ms  15.342 ms  11.952 ms
+11  utl.peers.uixp.co.ug (196.223.25.36)  11.943 ms  15.308 ms  11.836 ms
+12  196.0.0.209 (196.0.0.209)  9.746 ms  11.351 ms  13.251 ms
+13  l3-core-1.ip.utlonline.co.ug (196.0.0.25)  10.159 ms  13.279 ms  10.187 ms
+14  * * webhost2.utlonline.co.ug (196.0.3.3)  10.444 ms
