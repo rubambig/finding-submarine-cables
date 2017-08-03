@@ -1,0 +1,69 @@
+#!/bin/bash
+
+# Extracts traceroute information from each directory of experiments
+# Version 08/01/2017
+# Author Gloire Rubambiza
+
+# Global variables
+exp_day="some_exp"
+country_dir="some_country"
+exp_orig=$1
+let counter=1
+
+for experiment_day in $1/*
+do
+  echo $experiment_day
+  if  test -d $experiment_day
+   then
+       for country_dir in $experiment_day/*
+       do
+         IFS="_"
+         set $experiment_day
+         sum_complement=$2"_"$3"_"$4"_"$5"_"$exp_orig"-"
+         IFS="/"
+         set $country_dir
+         country_name=$3
+         sum_complement=$sum_complement$country_name".csv"
+         IFS=$' \n\t'
+         summary_file="Summary_"$sum_complement
+         touch $summary_file
+         header="Day, Time, Origin, Destination, DNS, Hop IP, Duration, Hop Count"
+         echo $header > $summary_file
+         # Extracting the information from each experiment
+         for experiment_file in $country_dir/*
+         do
+           while read some_line
+           do
+            echo $some_line
+            if [ $counter -eq 1 ]
+               then
+                    #Ignore the first line and increase counter
+                    let counter=counter+1
+            else
+                IFS=$' \n\t'
+                set $some_line
+                hop=$1
+                dns=$2
+                ip_address=$3
+                millisec=$4
+                IFS="/"
+                set $experiment_file
+                file_name=$4
+                IFS="_"
+                set $file_name
+                day=$3
+                echo the day is $day
+                time=$7
+                IFS="."
+                set $time
+                new_time=$1
+                echo the time is $new_time
+                IFS=$' \n\t'
+                ./Global_Trace_CleanUp.py $day $new_time $exp_orig $country_name $dns $ip_address $millisec $hop $summary_file
+            fi
+           done < $experiment_file
+           let counter=1
+         done
+       done
+   fi
+done
