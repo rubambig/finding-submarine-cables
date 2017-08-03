@@ -1,0 +1,31 @@
+traceroute to www.startel.ao (41.222.236.20), 30 hops max, 60 byte packets
+ 1  ec2-175-41-192-150.ap-northeast-1.compute.amazonaws.com (175.41.192.150)  13.532 ms ec2-175-41-192-146.ap-northeast-1.compute.amazonaws.com (175.41.192.146)  20.159 ms ec2-175-41-192-148.ap-northeast-1.compute.amazonaws.com (175.41.192.148)  15.046 ms
+ 2  100.64.0.206 (100.64.0.206)  17.234 ms 100.64.1.8 (100.64.1.8)  21.234 ms 100.64.0.142 (100.64.0.142)  14.007 ms
+ 3  100.64.0.71 (100.64.0.71)  20.386 ms 100.64.1.67 (100.64.1.67)  16.718 ms 100.64.3.193 (100.64.3.193)  20.172 ms
+ 4  100.64.16.9 (100.64.16.9)  0.561 ms 100.64.16.171 (100.64.16.171)  0.584 ms 100.64.17.15 (100.64.17.15)  0.597 ms
+ 5  52.95.30.217 (52.95.30.217)  3.071 ms  3.083 ms 52.95.30.221 (52.95.30.221)  3.079 ms
+ 6  52.95.31.129 (52.95.31.129)  12.262 ms 52.95.31.121 (52.95.31.121)  3.718 ms 52.95.31.125 (52.95.31.125)  4.589 ms
+ 7  52.95.31.20 (52.95.31.20)  3.679 ms 52.95.31.32 (52.95.31.32)  2.931 ms 52.95.31.36 (52.95.31.36)  2.899 ms
+ 8  27.0.0.248 (27.0.0.248)  9.036 ms 54.239.52.140 (54.239.52.140)  10.961 ms  10.966 ms
+ 9  54.239.53.27 (54.239.53.27)  15.896 ms  15.054 ms 54.239.53.9 (54.239.53.9)  26.405 ms
+10  54.239.53.84 (54.239.53.84)  9.280 ms 54.239.53.112 (54.239.53.112)  8.928 ms  9.339 ms
+11  63-222-51-9.static.pccwglobal.net (63.222.51.9)  9.691 ms 63-222-51-13.static.pccwglobal.net (63.222.51.13)  9.661 ms 63-222-51-9.static.pccwglobal.net (63.222.51.9)  9.668 ms
+12  TenGE0-1-0-22.br02.tok02.pccwbtn.net (63.218.250.49)  11.903 ms TenGE0-1-0-18.br02.tok02.pccwbtn.net (63.223.33.197)  11.831 ms TenGE0-1-0-22.br02.tok02.pccwbtn.net (63.218.250.49)  12.004 ms
+13  ix-ae-16-0.tcore1.TV2-Tokyo.as6453.net (120.29.217.109)  10.984 ms TenGE0-0-0-22.br02.tok02.pccwbtn.net (63.218.250.65)  10.570 ms TenGE0-1-0-16.br02.tok02.pccwbtn.net (63.223.33.193)  11.471 ms
+14  ix-ae-16-0.tcore1.TV2-Tokyo.as6453.net (120.29.217.109)  11.118 ms  11.097 ms if-et-21-2.hcore1.KV8-Chiba.as6453.net (120.29.217.67)  16.198 ms
+15  if-et-21-2.hcore1.KV8-Chiba.as6453.net (120.29.217.67)  16.329 ms if-ae-5-2.tcore2.SV1-Santa-Clara.as6453.net (209.58.86.142)  273.240 ms  272.129 ms
+16  if-ae-5-2.tcore2.SV1-Santa-Clara.as6453.net (209.58.86.142)  270.332 ms if-ae-18-2.tcore1.SQN-San-Jose.as6453.net (63.243.205.130)  272.174 ms if-ae-5-2.tcore2.SV1-Santa-Clara.as6453.net (209.58.86.142)  276.025 ms
+17  if-ae-38-2.tcore1.SQN-San-Jose.as6453.net (63.243.205.74)  271.881 ms if-ae-18-2.tcore1.SQN-San-Jose.as6453.net (63.243.205.130)  270.782 ms if-ae-12-2.tcore1.NTO-New-York.as6453.net (63.243.128.28)  270.627 ms
+18  if-ae-12-2.tcore1.NTO-New-York.as6453.net (63.243.128.28)  272.707 ms  271.883 ms  273.984 ms
+19  if-ae-7-2.tcore1.N0V-New-York.as6453.net (63.243.128.26)  272.375 ms if-ae-2-2.tcore2.N0V-New-York.as6453.net (216.6.90.22)  274.205 ms if-ae-7-2.tcore1.N0V-New-York.as6453.net (63.243.128.26)  272.506 ms
+20  if-ae-2-2.tcore2.N0V-New-York.as6453.net (216.6.90.22)  272.038 ms  274.298 ms if-ae-4-2.tcore2.L78-London.as6453.net (80.231.131.157)  277.522 ms
+21  if-ae-4-2.tcore2.L78-London.as6453.net (80.231.131.157)  272.346 ms  272.768 ms  274.056 ms
+22  if-ae-1-3.tcore1.PV9-Lisbon.as6453.net (80.231.158.29)  276.444 ms if-ae-19-2.tcore1.SV8-Highbridge.as6453.net (80.231.138.21)  273.927 ms  271.918 ms
+23  if-ae-1-3.tcore1.PV9-Lisbon.as6453.net (80.231.158.29)  275.452 ms  272.886 ms if-ae-2-2.tcore2.PV9-Lisbon.as6453.net (80.231.158.6)  271.338 ms
+24  if-ae-2-2.tcore2.PV9-Lisbon.as6453.net (80.231.158.6)  269.869 ms  271.517 ms  269.948 ms
+25  p2-nc024.ang.lad.as37468.angolacables.ao (185.148.112.21)  375.150 ms 80.231.159.26 (80.231.159.26)  274.380 ms p2-nc023.ang.lad.as37468.angolacables.ao (185.148.112.17)  375.679 ms
+26  p2-nc024.ang.lad.as37468.angolacables.ao (185.148.112.21)  371.210 ms p2-nc023.ang.lad.as37468.angolacables.ao (185.148.112.17)  375.648 ms pe1-ne011.ang.lad.as37468.angolacables.ao (197.149.151.3)  375.628 ms
+27  pe1-ne011.ang.lad.as37468.angolacables.ao (197.149.151.3)  373.338 ms  373.556 ms  375.730 ms
+28  197.149.148.237 (197.149.148.237)  371.227 ms  371.113 ms  374.429 ms
+29  41.222.238.26 (41.222.238.26)  374.748 ms  373.842 ms 41.222.238.7 (41.222.238.7)  375.635 ms
+30  41.222.238.7 (41.222.238.7)  375.093 ms  375.216 ms  375.812 ms

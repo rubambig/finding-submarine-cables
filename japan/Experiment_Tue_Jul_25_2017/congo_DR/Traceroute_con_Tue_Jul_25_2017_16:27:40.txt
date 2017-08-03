@@ -1,0 +1,16 @@
+traceroute to www.unikin.cd (173.254.28.57), 30 hops max, 60 byte packets
+ 1  ec2-175-41-192-148.ap-northeast-1.compute.amazonaws.com (175.41.192.148)  14.275 ms ec2-175-41-192-144.ap-northeast-1.compute.amazonaws.com (175.41.192.144)  50.987 ms ec2-175-41-192-150.ap-northeast-1.compute.amazonaws.com (175.41.192.150)  16.561 ms
+ 2  100.64.2.206 (100.64.2.206)  22.110 ms 100.64.1.12 (100.64.1.12)  13.778 ms 100.64.2.206 (100.64.2.206)  22.067 ms
+ 3  100.64.1.199 (100.64.1.199)  18.367 ms 100.64.3.3 (100.64.3.3)  19.767 ms 100.64.0.199 (100.64.0.199)  18.365 ms
+ 4  100.64.17.55 (100.64.17.55)  0.622 ms 100.64.16.195 (100.64.16.195)  0.609 ms 100.64.16.197 (100.64.16.197)  0.663 ms
+ 5  52.95.30.219 (52.95.30.219)  1.813 ms  1.845 ms  1.896 ms
+ 6  52.95.30.131 (52.95.30.131)  4.273 ms 52.95.30.133 (52.95.30.133)  10.392 ms  10.375 ms
+ 7  52.95.30.152 (52.95.30.152)  1.529 ms 52.95.30.154 (52.95.30.154)  1.477 ms 52.95.30.158 (52.95.30.158)  1.477 ms
+ 8  ae-10.r00.tokyjp03.jp.bb.gin.ntt.net (61.213.145.1)  2.050 ms  2.076 ms  1.987 ms
+ 9  ae-10.r31.tokyjp05.jp.bb.gin.ntt.net (129.250.3.252)  1.857 ms  2.017 ms ae-15.r03.tokyjp05.jp.bb.gin.ntt.net (129.250.5.151)  112.436 ms
+10  ae-4.r31.tokyjp05.jp.bb.gin.ntt.net (129.250.3.57)  1.806 ms ae-4.r23.lsanca07.us.bb.gin.ntt.net (129.250.3.193)  116.823 ms  116.957 ms
+11  ae-4.r23.lsanca07.us.bb.gin.ntt.net (129.250.3.193)  116.133 ms  116.211 ms ae-2.r01.lsanca07.us.bb.gin.ntt.net (129.250.4.107)  112.609 ms
+12  ae-0.endurance.lsanca07.us.bb.gin.ntt.net (129.250.198.182)  127.205 ms ae-2.r01.lsanca07.us.bb.gin.ntt.net (129.250.4.107)  112.162 ms ae-0.endurance.lsanca07.us.bb.gin.ntt.net (129.250.198.182)  127.299 ms
+13  162-144-240-149.unifiedlayer.com (162.144.240.149)  128.382 ms 162-144-240-163.unifiedlayer.com (162.144.240.163)  140.131 ms ae-0.endurance.lsanca07.us.bb.gin.ntt.net (129.250.198.182)  127.187 ms
+14  162-144-240-23.unifiedlayer.com (162.144.240.23)  127.912 ms  128.076 ms 162-144-240-19.unifiedlayer.com (162.144.240.19)  140.366 ms
+15  just57.justhost.com (173.254.28.57)  140.499 ms  140.446 ms 162-144-240-11.unifiedlayer.com (162.144.240.11)  128.525 ms

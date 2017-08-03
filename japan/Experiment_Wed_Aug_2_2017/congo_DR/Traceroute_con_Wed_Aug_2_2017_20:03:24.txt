@@ -1,0 +1,17 @@
+traceroute to www.unikin.cd (173.254.28.57), 30 hops max, 60 byte packets
+ 1  ec2-175-41-192-148.ap-northeast-1.compute.amazonaws.com (175.41.192.148)  16.353 ms ec2-175-41-192-150.ap-northeast-1.compute.amazonaws.com (175.41.192.150)  16.315 ms ec2-175-41-192-146.ap-northeast-1.compute.amazonaws.com (175.41.192.146)  22.113 ms
+ 2  100.64.2.8 (100.64.2.8)  18.131 ms 100.64.1.78 (100.64.1.78)  20.178 ms 100.64.2.8 (100.64.2.8)  18.077 ms
+ 3  100.64.2.5 (100.64.2.5)  17.509 ms 100.64.2.3 (100.64.2.3)  17.496 ms 100.64.3.195 (100.64.3.195)  17.327 ms
+ 4  100.64.17.103 (100.64.17.103)  0.849 ms 100.64.17.23 (100.64.17.23)  0.828 ms 100.64.16.229 (100.64.16.229)  0.875 ms
+ 5  52.95.30.215 (52.95.30.215)  2.053 ms 52.95.30.207 (52.95.30.207)  2.094 ms  2.046 ms
+ 6  52.95.30.125 (52.95.30.125)  7.500 ms 52.95.30.135 (52.95.30.135)  11.274 ms 52.95.30.129 (52.95.30.129)  6.257 ms
+ 7  52.95.30.178 (52.95.30.178)  1.601 ms 52.95.30.142 (52.95.30.142)  1.577 ms 52.95.30.146 (52.95.30.146)  1.570 ms
+ 8  ae-10.r00.tokyjp03.jp.bb.gin.ntt.net (61.213.145.1)  2.254 ms  3.264 ms ae-21.r02.tokyjp03.jp.bb.gin.ntt.net (120.88.53.145)  1.989 ms
+ 9  ae-15.r03.tokyjp05.jp.bb.gin.ntt.net (129.250.5.151)  110.029 ms  110.318 ms ae-10.r31.tokyjp05.jp.bb.gin.ntt.net (129.250.3.252)  1.985 ms
+10  ae-4.r23.snjsca04.us.bb.gin.ntt.net (129.250.5.78)  123.578 ms  110.476 ms ae-4.r23.lsanca07.us.bb.gin.ntt.net (129.250.3.193)  111.782 ms
+11  ae-45.r01.snjsca04.us.bb.gin.ntt.net (129.250.3.175)  109.971 ms ae-2.r00.lsanca07.us.bb.gin.ntt.net (129.250.3.238)  111.532 ms ae-45.r01.snjsca04.us.bb.gin.ntt.net (129.250.3.175)  110.008 ms
+12  ae-2.r00.lsanca07.us.bb.gin.ntt.net (129.250.3.238)  112.047 ms ae-0.a01.lsanca07.us.bb.gin.ntt.net (129.250.2.16)  114.502 ms ae-0.a01.snjsca04.us.bb.gin.ntt.net (129.250.3.163)  110.499 ms
+13  ae-0.endurance.lsanca07.us.bb.gin.ntt.net (129.250.198.182)  127.025 ms  126.907 ms ae-0.a01.snjsca04.us.bb.gin.ntt.net (129.250.3.163)  109.929 ms
+14  162-144-240-147.unifiedlayer.com (162.144.240.147)  128.552 ms 162-144-240-159.unifiedlayer.com (162.144.240.159)  140.902 ms ae-0.endurance.lsanca07.us.bb.gin.ntt.net (129.250.198.182)  126.961 ms
+15  162-144-240-161.unifiedlayer.com (162.144.240.161)  140.814 ms 162-144-240-11.unifiedlayer.com (162.144.240.11)  127.303 ms 162-144-240-15.unifiedlayer.com (162.144.240.15)  128.915 ms
+16  just57.justhost.com (173.254.28.57)  140.889 ms  141.009 ms 162-144-240-15.unifiedlayer.com (162.144.240.15)  129.346 ms

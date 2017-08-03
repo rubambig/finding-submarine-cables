@@ -1,0 +1,17 @@
+traceroute to www.unikin.cd (173.254.28.57), 30 hops max, 60 byte packets
+ 1  ec2-175-41-192-150.ap-northeast-1.compute.amazonaws.com (175.41.192.150)  17.708 ms ec2-175-41-192-148.ap-northeast-1.compute.amazonaws.com (175.41.192.148)  17.228 ms ec2-175-41-192-146.ap-northeast-1.compute.amazonaws.com (175.41.192.146)  13.277 ms
+ 2  100.64.2.140 (100.64.2.140)  17.023 ms 100.64.1.206 (100.64.1.206)  15.554 ms 100.64.3.206 (100.64.3.206)  17.442 ms
+ 3  100.64.1.135 (100.64.1.135)  11.388 ms 100.64.3.193 (100.64.3.193)  15.836 ms 100.64.1.65 (100.64.1.65)  15.830 ms
+ 4  100.64.17.99 (100.64.17.99)  0.868 ms 100.64.17.231 (100.64.17.231)  0.878 ms 100.64.16.173 (100.64.16.173)  0.887 ms
+ 5  52.95.30.219 (52.95.30.219)  2.458 ms 52.95.30.207 (52.95.30.207)  2.457 ms 52.95.30.215 (52.95.30.215)  2.454 ms
+ 6  52.95.30.135 (52.95.30.135)  642.541 ms  641.705 ms  653.120 ms
+ 7  52.95.30.168 (52.95.30.168)  1.586 ms 52.95.30.150 (52.95.30.150)  1.638 ms 52.95.30.136 (52.95.30.136)  1.626 ms
+ 8  ae-10.r00.tokyjp03.jp.bb.gin.ntt.net (61.213.145.1)  2.213 ms * ae-21.r02.tokyjp03.jp.bb.gin.ntt.net (120.88.53.145)  2.192 ms
+ 9  ae-15.r02.tokyjp05.jp.bb.gin.ntt.net (129.250.5.149)  112.497 ms ae-10.r31.tokyjp05.jp.bb.gin.ntt.net (129.250.3.252)  1.851 ms  1.817 ms
+10  ae-3.r30.tokyjp05.jp.bb.gin.ntt.net (129.250.3.23)  1.847 ms ae-4.r23.lsanca07.us.bb.gin.ntt.net (129.250.3.193)  112.526 ms *
+11  ae-2.r00.lsanca07.us.bb.gin.ntt.net (129.250.3.238)  111.558 ms ae-41.r02.snjsca04.us.bb.gin.ntt.net (129.250.6.119)  121.770 ms ae-2.r01.lsanca07.us.bb.gin.ntt.net (129.250.4.107)  113.053 ms
+12  ae-0.a01.snjsca04.us.bb.gin.ntt.net (129.250.3.163)  117.888 ms ae-41.r02.snjsca04.us.bb.gin.ntt.net (129.250.6.119)  121.770 ms ae-2.r00.lsanca07.us.bb.gin.ntt.net (129.250.3.238)  111.610 ms
+13  ae-0.endurance.lsanca07.us.bb.gin.ntt.net (129.250.198.182)  127.129 ms  126.929 ms ae-0.a01.snjsca04.us.bb.gin.ntt.net (129.250.3.163)  114.557 ms
+14  162-144-240-143.unifiedlayer.com (162.144.240.143)  140.884 ms 162-144-240-163.unifiedlayer.com (162.144.240.163)  129.077 ms 162-144-240-145.unifiedlayer.com (162.144.240.145)  140.704 ms
+15  162-144-240-147.unifiedlayer.com (162.144.240.147)  128.513 ms 162-144-240-19.unifiedlayer.com (162.144.240.19)  127.913 ms 162-144-240-167.unifiedlayer.com (162.144.240.167)  129.106 ms
+16  162-144-240-23.unifiedlayer.com (162.144.240.23)  140.580 ms 162-144-240-11.unifiedlayer.com (162.144.240.11)  127.197 ms just57.justhost.com (173.254.28.57)  140.306 ms

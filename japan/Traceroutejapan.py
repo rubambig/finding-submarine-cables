@@ -16,10 +16,13 @@ print("The sender is %s\n" % sender)
 
 # Get the directory where to send the file for an experiment.
 directory = subprocess.check_output("./Dir_Creation", universal_newlines=True)
+print(str(len(directory)))
 if len(directory) > 25:
     directory = directory[:25]
+    print("The directory length is 26\n")
 else:
     directory = directory[:26]
+    print("The directory length is more than 26\n")
 
 
 # To be used as the template of return codes.

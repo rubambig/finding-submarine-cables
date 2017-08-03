@@ -1,0 +1,17 @@
+traceroute to www.unikin.cd (173.254.28.57), 30 hops max, 60 byte packets
+ 1  ec2-175-41-192-144.ap-northeast-1.compute.amazonaws.com (175.41.192.144)  128.583 ms  128.584 ms ec2-175-41-192-150.ap-northeast-1.compute.amazonaws.com (175.41.192.150)  19.012 ms
+ 2  100.64.2.8 (100.64.2.8)  17.619 ms 100.64.0.138 (100.64.0.138)  14.641 ms 100.64.0.136 (100.64.0.136)  14.641 ms
+ 3  100.64.2.193 (100.64.2.193)  16.126 ms 100.64.0.7 (100.64.0.7)  14.910 ms 100.64.1.195 (100.64.1.195)  15.792 ms
+ 4  100.64.17.179 (100.64.17.179)  1.234 ms 100.64.16.183 (100.64.16.183)  1.222 ms 100.64.16.35 (100.64.16.35)  1.929 ms
+ 5  52.95.30.207 (52.95.30.207)  2.300 ms 52.95.30.219 (52.95.30.219)  2.297 ms 52.95.30.207 (52.95.30.207)  2.454 ms
+ 6  52.95.30.121 (52.95.30.121)  7.859 ms 52.95.30.133 (52.95.30.133)  6.220 ms  6.334 ms
+ 7  52.95.30.140 (52.95.30.140)  3.287 ms 52.95.30.148 (52.95.30.148)  1.888 ms 52.95.30.152 (52.95.30.152)  1.874 ms
+ 8  ae-10.r00.tokyjp03.jp.bb.gin.ntt.net (61.213.145.1)  2.191 ms  2.135 ms ae-21.r02.tokyjp03.jp.bb.gin.ntt.net (120.88.53.145)  2.150 ms
+ 9  * ae-10.r31.tokyjp05.jp.bb.gin.ntt.net (129.250.3.252)  1.793 ms ae-14.r30.tokyjp05.jp.bb.gin.ntt.net (129.250.4.80)  5.684 ms
+10  ae-4.r23.lsanca07.us.bb.gin.ntt.net (129.250.3.193)  111.746 ms *  111.767 ms
+11  ae-4.r23.snjsca04.us.bb.gin.ntt.net (129.250.5.78)  123.158 ms ae-45.r01.snjsca04.us.bb.gin.ntt.net (129.250.3.175)  109.981 ms  110.368 ms
+12  ae-1.a01.snjsca04.us.bb.gin.ntt.net (129.250.2.48)  126.130 ms ae-0.a01.snjsca04.us.bb.gin.ntt.net (129.250.3.163)  114.654 ms ae-1.a01.lsanca07.us.bb.gin.ntt.net (129.250.2.160)  113.191 ms
+13  ae-0.endurance.lsanca07.us.bb.gin.ntt.net (129.250.198.182)  126.926 ms ae-0.endurance.snjsca04.us.bb.gin.ntt.net (129.250.195.138)  141.590 ms ae-0.endurance.lsanca07.us.bb.gin.ntt.net (129.250.198.182)  126.888 ms
+14  ae-0.endurance.lsanca07.us.bb.gin.ntt.net (129.250.198.182)  126.848 ms 162-144-240-139.unifiedlayer.com (162.144.240.139)  140.564 ms ae-0.endurance.lsanca07.us.bb.gin.ntt.net (129.250.198.182)  127.055 ms
+15  162-144-240-11.unifiedlayer.com (162.144.240.11)  127.630 ms  127.581 ms 162-144-240-15.unifiedlayer.com (162.144.240.15)  129.145 ms
+16  just57.justhost.com (173.254.28.57)  140.809 ms  140.595 ms 162-144-240-19.unifiedlayer.com (162.144.240.19)  127.746 ms

@@ -10,6 +10,6 @@ experiment_day="Experiment_"$1"_"$2"_"$3"_"$6
 if ! test -d $experiment_day
   then
       mkdir $experiment_day
-      echo $experiment_day
+      #echo $experiment_day
 fi
 echo $experiment_day
