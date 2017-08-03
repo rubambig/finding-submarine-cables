@@ -1,0 +1,31 @@
+traceroute to ec2-52-199-106-184.ap-northeast-1.compute.amazonaws.com (52.199.106.184), 30 hops max, 60 byte packets
+ 1  rwanda-fw-252.net.rwanda.cmu.local (172.29.52.1)  3.974 ms  4.187 ms  4.519 ms
+ 2  41.74.174.49 (41.74.174.49)  4.887 ms  4.977 ms  5.083 ms
+ 3  197.243.126.165 (197.243.126.165)  6.347 ms  6.773 ms  6.795 ms
+ 4  192.168.1.253 (192.168.1.253)  6.794 ms  6.791 ms  6.786 ms
+ 5  192.168.1.230 (192.168.1.230)  6.783 ms  7.166 ms  8.148 ms
+ 6  197.243.126.29 (197.243.126.29)  8.152 ms  18.489 ms  4.334 ms
+ 7  41.223.224.210 (41.223.224.210)  4.648 ms  5.385 ms  5.380 ms
+ 8  197.155.94.164.liquidtelecom.net (197.155.94.164)  186.448 ms  186.433 ms  186.415 ms
+ 9  teng0-0-1-3.lug-p1-kpl.liquidtelecom.net (197.155.94.80)  182.529 ms 197.155.94.148.liquidtelecom.net (197.155.94.148)  186.361 ms teng0-0-1-3.lug-p1-kpl.liquidtelecom.net (197.155.94.80)  182.484 ms
+10  teng0-1-1-1.lke-p1-nbi.liquidtelecom.net (197.155.94.68)  182.460 ms teng0-0-1-3-p1-kpl.liquidtelecom.net (197.155.94.19)  184.906 ms  186.240 ms
+11  ten-0-1-1-2-p2-msa.liquidtelecom.net (197.155.94.73)  29.127 ms  26.904 ms teng0-0-1-0-p2-msa.liquidtelecom.net (197.155.94.11)  24.824 ms
+12  teng-0-0-1-2-pe1-fuj.liquidtelecom.net (197.155.94.82)  74.866 ms  75.163 ms  76.559 ms
+13  teng0-0-0-1-luk-p2-tho.liquidtelecom.net (5.11.10.214)  262.304 ms  262.337 ms  262.335 ms
+14  teng0-0-0-0-luk-pe1-tcy.liquidtelecom.net (5.11.10.99)  262.333 ms  262.342 ms  262.322 ms
+15  tenge13-2.br02.ams01.pccwbtn.net (80.249.209.37)  262.349 ms  262.320 ms  262.319 ms
+16  tenge4-2.br01.tok02.pccwbtn.net (63.218.250.37)  467.050 ms  467.073 ms  467.056 ms
+17  tenge4-2.br01.tok02.pccwbtn.net (63.218.250.37)  467.030 ms tenge0-3-0-9.br02.tok02.pccwbtn.net (63.218.250.133)  466.962 ms tenge0-3-0-4.br02.tok02.pccwbtn.net (63.218.250.113)  466.986 ms
+18  63-216-242-54.static.pccwglobal.net (63.216.242.54)  427.405 ms  476.740 ms 63-218-251-238.static.pccwglobal.net (63.218.251.238)  476.427 ms
+19  52.95.30.141 (52.95.30.141)  477.056 ms  477.022 ms 52.95.30.165 (52.95.30.165)  476.960 ms
+20  52.95.30.134 (52.95.30.134)  476.928 ms  476.874 ms 52.95.30.124 (52.95.30.124)  476.834 ms
+21  52.95.30.218 (52.95.30.218)  476.792 ms 52.95.30.210 (52.95.30.210)  419.468 ms  419.530 ms
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *

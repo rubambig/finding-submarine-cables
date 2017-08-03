@@ -1,0 +1,26 @@
+traceroute to ec2-52-199-106-184.ap-northeast-1.compute.amazonaws.com (52.199.106.184), 30 hops max, 60 byte packets
+ 1  rwanda-fw-252.net.rwanda.cmu.local (172.29.52.1)  1.587 ms  1.776 ms  1.907 ms
+ 2  41.74.174.49 (41.74.174.49)  4.631 ms  4.721 ms  4.822 ms
+ 3  197.243.126.165 (197.243.126.165)  5.575 ms  5.572 ms  5.567 ms
+ 4  192.168.1.253 (192.168.1.253)  5.561 ms  6.026 ms  6.026 ms
+ 5  192.168.1.230 (192.168.1.230)  5.537 ms  5.532 ms  5.527 ms
+ 6  197.243.126.29 (197.243.126.29)  5.723 ms  2.723 ms  4.401 ms
+ 7  41.223.224.210 (41.223.224.210)  4.552 ms  5.501 ms  5.502 ms
+ 8  197.155.94.164.liquidtelecom.net (197.155.94.164)  186.238 ms  186.246 ms  186.239 ms
+ 9  teng0-0-1-3.lug-p1-kpl.liquidtelecom.net (197.155.94.80)  182.458 ms 197.155.94.148.liquidtelecom.net (197.155.94.148)  186.666 ms teng0-0-1-3.lug-p1-kpl.liquidtelecom.net (197.155.94.80)  182.451 ms
+10  teng0-0-1-3-p1-kpl.liquidtelecom.net (197.155.94.19)  185.056 ms teng0-1-1-1.lke-p1-nbi.liquidtelecom.net (197.155.94.68)  182.434 ms teng0-0-1-3-p1-kpl.liquidtelecom.net (197.155.94.19)  185.053 ms
+11  teng0-0-1-0-p2-msa.liquidtelecom.net (197.155.94.11)  28.125 ms  28.127 ms  27.963 ms
+12  teng-0-0-1-2-pe1-fuj.liquidtelecom.net (197.155.94.82)  72.538 ms  73.713 ms  77.063 ms
+13  teng0-0-0-1-luk-p2-tho.liquidtelecom.net (5.11.10.214)  287.276 ms  287.292 ms  287.278 ms
+14  teng0-0-0-0-luk-pe1-tcy.liquidtelecom.net (5.11.10.99)  287.279 ms  287.275 ms  287.266 ms
+15  tenge13-2.br02.ams01.pccwbtn.net (80.249.209.37)  287.266 ms  287.251 ms  287.236 ms
+16  tenge4-2.br01.tok02.pccwbtn.net (63.218.250.37)  487.811 ms  487.801 ms  487.784 ms
+17  tenge0-3-0-8.br02.tok02.pccwbtn.net (63.218.250.129)  487.748 ms tenge0-3-0-4.br02.tok02.pccwbtn.net (63.218.250.113)  487.757 ms tenge0-3-0-7.br02.tok02.pccwbtn.net (63.218.250.121)  455.608 ms
+18  63-216-242-54.static.pccwglobal.net (63.216.242.54)  419.375 ms 63-216-242-78.static.pccwglobal.net (63.216.242.78)  493.348 ms 63-216-242-54.static.pccwglobal.net (63.216.242.54)  493.187 ms
+19  52.95.30.147 (52.95.30.147)  493.682 ms 52.95.30.145 (52.95.30.145)  493.626 ms 52.95.30.143 (52.95.30.143)  493.671 ms
+20  52.95.30.122 (52.95.30.122)  493.614 ms  493.622 ms 52.95.30.120 (52.95.30.120)  493.558 ms
+21  52.95.30.214 (52.95.30.214)  493.589 ms 52.95.30.218 (52.95.30.218)  425.862 ms  425.971 ms
+22  * * *
+23  * * *
+24  * * *
+25  ec2-52-199-106-184.ap-northeast-1.compute.amazonaws.com (52.199.106.184)  480.633 ms  480.614 ms  480.563 ms
