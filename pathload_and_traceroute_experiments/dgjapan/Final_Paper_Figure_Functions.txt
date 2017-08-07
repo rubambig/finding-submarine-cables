@@ -1,0 +1,64 @@
+# Contains the list of functions to run for histograms
+histBWJ("../japan/J_Thu_Data.csv", "Thu 7/6 - Japan Bandwidth Distribution")
+histBWL("../london/L_Thu_Data.csv", "Thu 7/6 - London Bandwidth Distribution")
+histBWS("../singapore/S_Thu_Data.csv", "Thu 7/6 - Singapore Bandwidth Distribution")
+
+
+# Contains the list of functions to run for bandwidth 4 day estimates
+plottb("DGJ_Sun_Data.csv", "Sun 7/9 - Time v Bandwidth")
+plottb("DGJ_Mon_Data.csv", "Mon 7/10 - Time v Bandwidth")
+plottb("DGJ_Tue_Data.csv", "Tue 7/11 - Time v Bandwidth")
+plottb("DGJ_Wed_Data.csv", "Wed 7/12 - Time v Bandwidth")
+
+plottb("../singapore/S_Wed_Data.csv", "Wed 7/5 - Time v Bandwidth")
+plottb("../singapore/S_Thu_Data.csv", "Thu 7/6 - Time v Bandwidth")
+plottb("../singapore/S_Sat_Data.csv", "Sat 7/8 - Time v Bandwidth")
+plottb("../singapore/S_Sun_Data.csv", "Sun 7/9/17 - Time v Bandwidth")
+
+layout(mygrid)
+
+plottb("../london/L_Wed_Data.csv", "Wed 7/5 - Time v Bandwidth")
+plottb("../london/L_Thu_Data.csv", "Thu 7/6 - Time v Bandwidth")
+plottb("../london/L_Sat_Data.csv", "Sat 7/8 - Time v Bandwidth")
+plottb("../london/L_Sun_Data.csv", "Sun 7/9/17 - Time v Bandwidth (London)")
+layout(mygrid)
+plottb("../japan/J_Wed_Data.csv", "Wed 7/5 - Time v Bandwidth")
+plottb("../japan/J_Thu_Data.csv", "Thu 7/6 - Time v Bandwidth")
+plottb("../japan/J_Sat_Data.csv", "Sat 7/8 - Time v Bandwidth")
+plottb("../japan/J_Sun_Data.csv", "Sun 7/9 - Time v Bandwidth")
+
+# Contains the list functions to run for bandwidth comparison
+layout(mygrid)
+
+plottb("DGJ_Tue_Data.csv", "AWS - Tue 7/11 - Time v Bandwidth")
+plottb("DGJ_Wed_Data.csv", "AWS - Wed 7/12 - Time v Bandwidth")
+
+
+plottbc("../japan/JComp_Tue_Data.csv", "GCP - Tue 7/11 - Time v Bandwidth")
+plottbc("../japan/JComp_Wed_Data.csv", "GCP - Wed 7/12 - Time v Bandwidth")
+
+# Distribution of bandwidth
+layout(mygrid)
+histBWJ("../japan/J_Thu_Data.csv", "Thu 7/6 - Japan ABW Distribution")
+histBWL("../london/L_Thu_Data.csv", "Thu 7/6 - London ABW Distribution")
+histBWS("../singapore/S_Thu_Data.csv", "Thu 7/6 - Singapore ABW Distribution")
+
+# Pattern of traceroutes
+plotIPD("TR_DGJ_Wed_Data.csv", "(J) Wed 7/5 - Hop IP v Latency")
+plotIPD("../singapore/TR_S_Wed_Data.csv", "(S) Wed 7/5 - Hop IP v Latency")
+
+# Distribution of traceroutes
+histDuration("../singapore/TR_S_Wed_Data.csv", "(S) Wed 7/5 - Hop IP v Latency")
+histDuration("TR_DGJ_Wed_Data.csv", "(J) Wed 7/5 - Hop IP v Latency")
+histDuration("../london/TR_L_Wed_Data.csv", "(L) Wed 7/5 - Hop IP v Latency")
+
+# Averages of bandwidth for the entire week
+bwac("../london/London_Data.csv", "some")
+bwac("../singapore/Singapore_Data.csv", "some")
+bwac("../japan/Japan_Data.csv", "some")
+
+# Averages of traceroute latencies for the entire week
+lac("../london/Traceroute_London_Data.csv")
+lac("../singapore/Traceroute_Singapore_Data.csv")
+
+
