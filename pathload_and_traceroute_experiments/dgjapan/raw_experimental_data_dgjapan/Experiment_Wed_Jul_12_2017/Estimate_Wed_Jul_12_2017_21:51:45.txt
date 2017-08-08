@@ -1,0 +1,50 @@
+
+
+
+
+Receiver ip-172-31-10-24 starts measurements at sender ec2-52-40-26-80.us-west-2.compute.amazonaws.com on Wed Jul 12 21:51:45 2017 
+  Maximum packet size          :: 1472 bytes
+  send latency @sndr           :: 1 usec
+  recv latency @rcvr           :: 0 usec
+  Minimum packet spacing       :: 7 usec
+  Max rate(max_pktsz/min_time) :: 1714.29Mbps
+  ADR [.]                      :: 15891.89Mbps
+  Grey bandwidth resolution    :: 12.00
+  Interrupt coalescion detected
+
+Receiving Fleet 0
+  Fleet Parameter(req)  :: R=857.14Mbps, L=1472B, K=100packets, T=14usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of DS @ rcvr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  Fleet Parameter(act)  :: R=857.14Mbps, L=1472B, K=100packets, T=14usec
+  PCT metric/stream[10] :: 0.93:0.91:0.90:0.50:0.93:0.92:0.83:0.92:0.89:0.88:
+  PDT metric/stream[10] :: 1.00:1.00:1.00:-0.53:1.00:1.00:1.00:1.00:1.00:1.00:
+  PCT Trend/stream [10] :: IIIUIIIIII
+  PDT Trend/stream [10] :: IIINIIIIII
+  Trend per stream [10] :: IIINIIIIII
+  Aggregate trend       :: INCREASING
+  Rmin-Rmax             :: 0.00-857.14Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+Receiving Fleet 1
+  Fleet Parameter(req)  :: R=428.57Mbps, L=1472B, K=100packets, T=28usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of DS @ rcvr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  Fleet Parameter(act)  :: R=428.57Mbps, L=1472B, K=100packets, T=28usec
+  PCT metric/stream[11] :: 0.53:0.33:0.30:0.36:0.38:0.47:0.31:0.40:0.38:0.80:0.42:
+  PDT metric/stream[11] :: 0.20:0.05:-0.01:-0.09:-0.12:0.41:-0.43:-0.42:-0.42:0.64:-0.11:
+  PCT Trend/stream [11] :: UNNNNNNNNIN
+  PDT Trend/stream [11] :: NNNNNUNNNIN
+  Trend per stream [11] :: NNNNNNNNNIN
+  Aggregate trend       :: NO TREND
+  Rmin-Rmax             :: 428.57-857.14Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+	*****  RESULT *****
+Available bandwidth range : 428.57 - 857.14 (Mbps)
+Measurements finished at Wed Jul 12 21:51:52 2017 
+Measurement latency is 6.98 sec 

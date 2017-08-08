@@ -1,0 +1,45 @@
+
+
+
+
+Receiver ip-172-31-10-24 starts measurements at sender ec2-52-40-26-80.us-west-2.compute.amazonaws.com on Wed Jul 12 19:44:55 2017 
+  Maximum packet size          :: 1472 bytes
+  send latency @sndr           :: 1 usec
+  recv latency @rcvr           :: 0 usec
+  Minimum packet spacing       :: 7 usec
+  Max rate(max_pktsz/min_time) :: 1714.29Mbps
+  ADR [.]                      :: 441.77Mbps
+  Grey bandwidth resolution    :: 12.00
+  Interrupt coalescion detected
+
+Receiving Fleet 0
+  Fleet Parameter(req)  :: R=441.78Mbps, L=1463B, K=100packets, T=27usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: :11: 0: 0: 0: 0: 0: 0: 0: 0:22: 0
+  # of DS @ rcvr        :: :47: 0: 0: 0: 0: 0: 0: 0: 0:61: 0
+  Fleet Parameter(act)  :: R=441.78Mbps, L=1463B, K=100packets, T=27usec
+  PCT metric/stream[10] :: 0.88:0.88:0.54:0.33:0.33:0.38:0.83:0.86:0.50:0.33:
+  PDT metric/stream[10] :: 1.00:1.00:0.40:-0.22:-0.15:-0.11:0.75:1.00:0.27:-0.67:
+  PCT Trend/stream [10] :: IIUNNNIIUN
+  PDT Trend/stream [10] :: IIUNNNIINN
+  Trend per stream [10] :: IIUNNNIINN
+  Aggregate trend       :: GREY
+  Rmin-Rmax             :: 0.00-0.00Mbps
+  Gmin-Gmax             :: 441.78-441.78Mbps
+
+Receiving Fleet 1
+  Fleet Parameter(req)  :: R=666.67Mbps, L=1472B, K=100packets, T=18usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  Rmin-Rmax             :: 0.00-666.67Mbps
+  Gmin-Gmax             :: 441.78-441.78Mbps
+
+Receiving Fleet 2
+  Fleet Parameter(req)  :: R=545.45Mbps, L=1472B, K=100packets, T=22usec
+  Lossrate per stream   :: :0.0:0.0
+
+	*****  RESULT *****
+Receiver NIC has interrupt coalescence enabled
+Available bandwidth is greater than 0.00 (Mbps)
+Measurements finished at Wed Jul 12 19:45:01 2017 
+Measurement latency is 6.40 sec 

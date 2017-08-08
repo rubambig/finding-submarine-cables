@@ -1,0 +1,28 @@
+
+
+
+
+Receiver ip-172-31-10-24 starts measurements at sender ec2-52-40-26-80.us-west-2.compute.amazonaws.com on Wed Jul 12 20:45:19 2017 
+  Maximum packet size          :: 1472 bytes
+  send latency @sndr           :: 1 usec
+  recv latency @rcvr           :: 0 usec
+  Minimum packet spacing       :: 7 usec
+  Max rate(max_pktsz/min_time) :: 1714.29Mbps
+  ADR [.]                      :: 315.79Mbps
+  Grey bandwidth resolution    :: 12.00
+
+Receiving Fleet 0
+  Fleet Parameter(req)  :: R=315.79Mbps, L=1472B, K=100packets, T=38usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: :17:24:19:24:31:11:10:31:25: 5:17
+  # of DS @ rcvr        :: :77:64:80:67:55:82:85:63:64:87:80
+  Fleet Parameter(act)  :: R=315.79Mbps, L=1472B, K=100packets, T=38usec
+  PCT metric/stream[ 1] :: 0.62:
+  PDT metric/stream[ 1] :: 0.01:
+  PCT Trend/stream [ 1] :: I
+  PDT Trend/stream [ 1] :: N
+  Trend per stream [ 1] :: U
+
+	*****  RESULT *****
+Measurement terminated due to frequent CS @ sender/receiver.

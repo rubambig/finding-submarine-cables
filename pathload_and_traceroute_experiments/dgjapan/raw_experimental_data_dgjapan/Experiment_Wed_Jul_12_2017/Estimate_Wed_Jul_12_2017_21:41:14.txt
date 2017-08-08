@@ -1,0 +1,47 @@
+
+
+
+
+Receiver ip-172-31-10-24 starts measurements at sender ec2-52-40-26-80.us-west-2.compute.amazonaws.com on Wed Jul 12 21:41:14 2017 
+  Maximum packet size          :: 1472 bytes
+  send latency @sndr           :: 1 usec
+  recv latency @rcvr           :: 0 usec
+  Minimum packet spacing       :: 7 usec
+  Max rate(max_pktsz/min_time) :: 1714.29Mbps
+  ADR [.]                      :: 324.68Mbps
+  Grey bandwidth resolution    :: 12.00
+
+Receiving Fleet 0
+  Fleet Parameter(req)  :: R=324.32Mbps, L=1472B, K=100packets, T=37usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: :24:21:26:25:20:16:23:22:32:29:26
+  # of DS @ rcvr        :: :47:53:49:51:74:82:69:68:49:59:62
+  Fleet Parameter(act)  :: R=324.32Mbps, L=1472B, K=100packets, T=37usec
+  PCT metric/stream[ 8] :: 0.50:0.88:0.25:0.75:0.75:0.43:0.29:0.43:
+  PDT metric/stream[ 8] :: 0.40:1.00:-0.66:0.85:0.91:-0.20:-0.05:-0.03:
+  PCT Trend/stream [ 8] :: UINIINNN
+  PDT Trend/stream [ 8] :: UINIINNN
+  Trend per stream [ 8] :: UINIINNN
+  Aggregate trend       :: GREY
+  Rmin-Rmax             :: 0.00-0.00Mbps
+  Gmin-Gmax             :: 324.32-324.32Mbps
+
+Receiving Fleet 1
+  Fleet Parameter(req)  :: R=480.00Mbps, L=1472B, K=100packets, T=25usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: :10:17: 4:21:19:13:17:20:15:20:23
+  # of DS @ rcvr        :: :86:56:95:75:78:78:81:63:75:74:60
+  Fleet Parameter(act)  :: R=480.00Mbps, L=1472B, K=100packets, T=25usec
+  PCT metric/stream[ 2] :: 0.88:0.86:
+  PDT metric/stream[ 2] :: 1.00:1.00:
+  PCT Trend/stream [ 2] :: II
+  PDT Trend/stream [ 2] :: II
+  Trend per stream [ 2] :: II
+
+	*****  RESULT *****
+Measurement terminated due to frequent CS @ sender/receiver.
+Available bandwidth range : 324.32 - 324.32 (Mbps)
+Measurements finished at Wed Jul 12 21:41:21 2017 
+Measurement latency is 7.27 sec 
