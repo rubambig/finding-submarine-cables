@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Securely copies the latest files to the Oregon instance in the Dirk group
+# Version 07/08/2017
+# Author Gloire Rubambiza
+file_list="../Dir_Creation ../FileCreation"
+scp -r globaltrace ec2-user@ec2-54-187-25-77.us-west-2.compute.amazonaws.com:pathload_1.3.2

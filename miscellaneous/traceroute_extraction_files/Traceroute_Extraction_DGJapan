@@ -1,0 +1,65 @@
+#!/bin/bash
+
+# Extracts traceroute information from each experiment
+# Version 07/12/2017
+# Author Gloire Rubambiza
+
+# Global variables
+#csv_file="Traceroute_DGJapan_Data.csv"
+sender="Asia-Northeast-1"
+receiver="US-West-1"
+provider="Amazon-Web-Services"
+let counter=1
+
+csv_file="TR_DGJ_"$2"_Data.csv"
+# Test if the CSV file already exists
+if ! test -f $csv_file
+then
+    touch $csv_file
+    header="Day, Time, Sender Region, Receiver Region, Hop IP, Duration, Hop Count"
+    echo $header > $csv_file
+fi
+
+for file_name in $1/*
+do
+   # Test if the CSV file already exists
+   if ! test -f $csv_file
+   then
+       touch $csv_file
+       header="Day, Time, Sender Region, Receiver Region, Hop IP, Duration, Hop Count"
+       echo $header > $csv_file
+   fi
+   # Check if this is a traceroute file
+   echo $file_name
+   if grep -q 'traceroute to' $file_name
+      then
+          while read some_line
+          do
+            echo $some_line
+            if [ $counter -eq 1 ]
+               then
+                    #Ignore the first line and increase counter
+                    let counter=counter+1
+            else
+                IFS=$' \n\t'
+                set $some_line
+                hop=$1
+                ip_address=$3
+                millisec=$4
+                IFS="_"
+                set $file_name
+                day=$2
+                echo the day is $day
+                time=${10}
+                IFS="."
+                set $time
+                new_time=$1
+                echo the time is $new_time
+                IFS=$' \n\t'
+                ./Cleanup_Trace.py $day $new_time $sender $receiver $ip_address $millisec $hop $csv_file
+            fi
+          done < $file_name
+          let counter=1      
+   fi    
+   # Possibly handle the case when the experiment has "greater than"
+done

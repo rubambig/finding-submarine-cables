@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Securely copies files to the Japan instance
+# Version 07/03/2017
+# Author Gloire Rubambiza
+
+file_list="../ReceiverJapan.py ../Bandwidth_Extraction_Japan ../Save_Estimate.py"
+scp  $file_list gloire@35.187.193.237:pathload_1.3.2

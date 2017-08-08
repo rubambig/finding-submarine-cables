@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Securely copies files to the Singapore instance
+# Version 07/03/2017
+# Author Gloire Rubambiza
+
+#file_list="../ReceiverSingapore.py ../Bandwidth_Extraction_Singapore ../Save_Estimate.py"
+file_list="../Cleanup_Trace.py ../Traceroute_Extraction_Singapore"
+scp  $file_list ec2-user@ec2-13-229-55-214.ap-southeast-1.compute.amazonaws.com:pathload_1.3.2

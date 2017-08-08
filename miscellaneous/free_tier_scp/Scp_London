@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Securely copies the latest files to the London instance
+# Version 07/03/2017
+# Author Gloire Rubambiza
+
+#file_list="../ReceiverLondon.py ../Bandwidth_Extraction_London ../Save_Estimate.py "
+file_list="../TestCleanUp.py ../Traceroute_Extraction_London"
+scp $file_list ec2-user@ec2-35-176-119-86.eu-west-2.compute.amazonaws.com:pathload_1.3.2

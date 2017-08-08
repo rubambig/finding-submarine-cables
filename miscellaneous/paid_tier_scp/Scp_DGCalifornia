@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Securely copies the latest files to the California instance in the Dirk group
+# Version 07/03/2017
+# Author Gloire Rubambiza
+file_list="../Repeater_Agent_Snd.py"
+scp $file_list ec2-user@ec2-54-193-94-196.us-west-1.compute.amazonaws.com:pathload_1.3.2

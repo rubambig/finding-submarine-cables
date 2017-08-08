@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Extracts key bandwidth information from each experiment
+# Version 07/08/2017
+# Author Gloire Rubambiza
+
+# Test if the CSV file already exists
+csv_file="London_Data.csv"
+sender="US-East-2"
+receiver="EU-West-2"
+provider="Amazon-Web-Services"
+processor="Intel-Xeon-2.5-GHz"
+#cpu="Intel® Core™ i5-4210U CPU @ 1.70GHz"
+if ! test -f $csv_file
+then
+    touch $csv_file
+    header="Day, Time, Sender Region, Receiver Region, Provider, Processor, Low ABW, High ABW"
+    echo $header > $csv_file
+fi
+
+for file_name in ~/pathload_1.3.2/$1/*
+do
+   # Check if the file has "available", but not "greater than"
+   echo $file_name
+   if grep -q 'Available bandwidth range' $file_name
+      then
+          estimate=$(grep 'Available bandwidth range' $file_name)
+          set $estimate
+          lower=$5
+          upper=$7
+          IFS="_"
+          echo $IFS
+          set $file_name
+          day=$3
+          echo the day is $day
+          time=${11}
+          IFS="."
+          set $time
+          new_time=$1
+          echo the time is $new_time
+          IFS=$' \n\t'
+          ./Save_Estimate.py $day $new_time $sender $receiver $provider $processor $lower $upper $csv_file
+   fi    
+   # Possibly handle the case when the experiment has "greater than"
+done

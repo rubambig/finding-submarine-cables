@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Securely copies the latest files to the London instance
+# Version 07/03/2017
+# Author Gloire Rubambiza
+file_list="../ReceiverDGSingapore.py ../Dir_Creation ../FileCreation"
+scp $file_list ec2-user@ec2-52-221-179-74.ap-southeast-1.compute.amazonaws.com:pathload_1.3.2

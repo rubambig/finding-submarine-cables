@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Creates the file for each experiment
+# The standard log of pathload is redirected here
+# Author: Gloire Rubambiza
+# Version: 06/30/2017
+
+time=$(date)
+set $time
+
+experiment_name="Estimate_"$1"_"$2"_"$3"_"$6"_"$4".txt"
+touch $experiment_name
+echo $experiment_name
+
+
+#summary_file="Summary_"$1"_"$2"_"$3"_"$6
+#echo $summary_file
+
+#if ! test -f $summary_file
+   #then
+       #touch $summary_file
+#fi
+
+#if ! test -f TempFile.txt
+   #then
+       #touch TempFile.txt
+#fi
+
+
