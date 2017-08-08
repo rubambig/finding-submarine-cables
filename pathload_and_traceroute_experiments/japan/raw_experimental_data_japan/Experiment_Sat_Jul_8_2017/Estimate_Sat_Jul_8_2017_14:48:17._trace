@@ -1,0 +1,4 @@
+traceroute to 35.197.13.237 (35.197.13.237), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  * * *
+ 3  * * 237.13.197.35.bc.googleusercontent.com (35.197.13.237)  92.064 ms
