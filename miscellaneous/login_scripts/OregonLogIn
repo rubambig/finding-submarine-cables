@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Logs into Google Cloud virtual machine in Oregon
+ssh -i ~/.ssh/AWS_Singapore.pem gloire@$1

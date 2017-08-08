@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Logs into AWS virtual machine in Singapore
+ssh -i ~/.ssh/AWS_London.pem ec2-user@$1

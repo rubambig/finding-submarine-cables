@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Logs into AWS virtual machine in Singapore for Dirk Group
+ssh -i ~/.ssh/DirkGroup_Singapore.pem ec2-user@$1

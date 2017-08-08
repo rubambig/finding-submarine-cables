@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Logs into AWS virtual machine in Northern California
+ssh -i ~/.ssh/AWS_Northern_Cali.pem ec2-user@$1

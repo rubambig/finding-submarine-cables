@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Logs into AWS virtual machine in California for Dirk Group
+ssh -i ~/.ssh/DirkGroup_Northern_Cali.pem ec2-user@$1

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Logs into AWS virtual machine in Oregon for Dirk Group
+# Variable ECUs, 1 vCPUs, 2.5 GHz, Intel Xeon Family, 2 GiB memory, EBS only
+ssh -i ~/.ssh/DirkGroup_Oregon.pem ec2-user@$1
