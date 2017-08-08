@@ -1,0 +1,97 @@
+
+
+
+
+Receiver ip-172-31-6-219 starts measurements at sender ec2-13-59-133-125.us-east-2.compute.amazonaws.com on Tue Jul  4 17:00:25 2017 
+  Maximum packet size          :: 1472 bytes
+  send latency @sndr           :: 1 usec
+  recv latency @rcvr           :: 0 usec
+  Minimum packet spacing       :: 7 usec
+  Max rate(max_pktsz/min_time) :: 1714.29Mbps
+  ADR [.]                      :: 747.14Mbps
+  Grey bandwidth resolution    :: 12.00
+  Interrupt coalescion detected
+
+Receiving Fleet 0
+  Fleet Parameter(req)  :: R=750.00Mbps, L=1472B, K=100packets, T=16usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of DS @ rcvr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  Fleet Parameter(act)  :: R=750.00Mbps, L=1472B, K=100packets, T=16usec
+  PCT metric/stream[10] :: 0.64:0.83:0.78:0.50:0.67:0.43:0.50:0.77:0.62:0.55:
+  PDT metric/stream[10] :: 0.61:0.70:0.98:0.10:-0.33:0.51:-0.04:0.83:0.55:0.03:
+  PCT Trend/stream [10] :: IIIUINUIIU
+  PDT Trend/stream [10] :: IIINNINIIN
+  Trend per stream [10] :: IIINUUNIIN
+  Aggregate trend       :: GREY
+  Rmin-Rmax             :: 0.00-0.00Mbps
+  Gmin-Gmax             :: 750.00-750.00Mbps
+
+Receiving Fleet 1
+  Fleet Parameter(req)  :: R=1090.91Mbps, L=1472B, K=100packets, T=11usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0
+
+Receiving Fleet 2
+  Fleet Parameter(req)  :: R=1090.91Mbps, L=1472B, K=300packets, T=11usec
+  Lossrate per stream   :: :71.3
+  Fleet aborted due to high lossrate
+  Rmin-Rmax             :: 0.00-1090.91Mbps
+  Gmin-Gmax             :: 750.00-750.00Mbps
+
+Receiving Fleet 3
+  Fleet Parameter(req)  :: R=923.08Mbps, L=1472B, K=100packets, T=13usec
+  Lossrate per stream   :: :14.0
+  Rmin-Rmax             :: 0.00-923.08Mbps
+  Gmin-Gmax             :: 750.00-750.00Mbps
+
+Receiving Fleet 4
+  Fleet Parameter(req)  :: R=857.14Mbps, L=1472B, K=100packets, T=14usec
+  Lossrate per stream   :: :0.0:0.0:0.0
+  Rmin-Rmax             :: 0.00-857.14Mbps
+  Gmin-Gmax             :: 750.00-750.00Mbps
+
+Receiving Fleet 5
+  Fleet Parameter(req)  :: R=800.00Mbps, L=1472B, K=100packets, T=15usec
+  Lossrate per stream   :: :14.0:0.0:0.0:0.0
+  Rmin-Rmax             :: 0.00-800.00Mbps
+  Gmin-Gmax             :: 750.00-750.00Mbps
+
+Receiving Fleet 6
+  Fleet Parameter(req)  :: R=1600.00Mbps, L=1472B, K=100packets, T=15usec
+  Lossrate per stream   :: :14.0:0.0:0.0:0.0:0.0
+
+Receiving Fleet 7
+  Fleet Parameter(req)  :: R=1500.00Mbps, L=1472B, K=300packets, T=8usec
+  Lossrate per stream   :: :50.3
+  Fleet aborted due to high lossrate
+  Rmin-Rmax             :: 0.00-1500.00Mbps
+  Gmin-Gmax             :: 750.00-750.00Mbps
+
+Receiving Fleet 8
+  Fleet Parameter(req)  :: R=375.00Mbps, L=1472B, K=100packets, T=32usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  Rmin-Rmax             :: 0.00-375.00Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+Receiving Fleet 9
+  Fleet Parameter(req)  :: R=187.50Mbps, L=1472B, K=100packets, T=64usec
+  Lossrate per stream   :: :0.0:11.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: :19: 0:15:25:17:14:18:15:20:16:13
+  # of DS @ rcvr        :: :20: 0:17:29:21:20:20:17:21:17:58
+  Fleet Parameter(act)  :: R=363.64Mbps, L=1472B, K=100packets, T=33usec
+  PCT metric/stream[11] :: 0.30:0.40:0.44:0.50:0.60:0.60:0.50:0.50:0.60:0.43:0.44:
+  PDT metric/stream[11] :: 0.21:-0.07:0.09:0.15:0.28:0.44:0.13:0.04:0.03:0.45:0.12:
+  PCT Trend/stream [11] :: NNNUUUUUUNN
+  PDT Trend/stream [11] :: NNNNNINNNIN
+  Trend per stream [11] :: NNNNNINNNUN
+  Aggregate trend       :: NO TREND
+  Rmin-Rmax             :: 363.64-375.00Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+	*****  RESULT *****
+Receiver NIC has interrupt coalescence enabled
+Available bandwidth is greater than 363.64 (Mbps)
+Measurements finished at Tue Jul  4 17:00:38 2017 
+Measurement latency is 13.59 sec 

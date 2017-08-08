@@ -1,0 +1,25 @@
+
+
+
+
+Receiver ip-172-31-6-219 starts measurements at sender ec2-52-14-254-69.us-east-2.compute.amazonaws.com on Sun Jul  9 17:10:37 2017 
+  Maximum packet size          :: 1472 bytes
+  send latency @sndr           :: 1 usec
+  recv latency @rcvr           :: 0 usec
+  Minimum packet spacing       :: 7 usec
+  Max rate(max_pktsz/min_time) :: 1714.29Mbps
+  ADR [.]                      :: 18375.00Mbps
+  Grey bandwidth resolution    :: 12.00
+  Interrupt coalescion detected
+
+Receiving Fleet 0
+  Fleet Parameter(req)  :: R=857.14Mbps, L=1472B, K=100packets, T=14usec
+  Lossrate per stream   :: :14.0:0.0:0.0
+  Rmin-Rmax             :: 0.00-857.14Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+	*****  RESULT *****
+Receiver NIC has interrupt coalescence enabled
+Available bandwidth is greater than 0.00 (Mbps)
+Measurements finished at Sun Jul  9 17:10:38 2017 
+Measurement latency is 1.17 sec 

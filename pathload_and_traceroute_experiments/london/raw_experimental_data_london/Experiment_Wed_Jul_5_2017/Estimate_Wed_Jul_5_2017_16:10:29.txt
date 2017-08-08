@@ -1,0 +1,58 @@
+
+
+
+
+Receiver ip-172-31-6-219 starts measurements at sender ec2-13-58-10-251.us-east-2.compute.amazonaws.com on Wed Jul  5 16:10:29 2017 
+  Maximum packet size          :: 1472 bytes
+  send latency @sndr           :: 1 usec
+  recv latency @rcvr           :: 0 usec
+  Minimum packet spacing       :: 7 usec
+  Max rate(max_pktsz/min_time) :: 1714.29Mbps
+  ADR [.]                      :: 1235.29Mbps
+  Grey bandwidth resolution    :: 12.00
+  Interrupt coalescion detected
+
+Receiving Fleet 0
+  Fleet Parameter(req)  :: R=1200.00Mbps, L=1472B, K=100packets, T=10usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+
+Receiving Fleet 1
+  Fleet Parameter(req)  :: R=1200.00Mbps, L=1472B, K=300packets, T=10usec
+  Lossrate per stream   :: :0.0:15.3
+  Fleet aborted due to high lossrate
+  Rmin-Rmax             :: 0.00-1200.00Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+Receiving Fleet 2
+  Fleet Parameter(req)  :: R=600.00Mbps, L=1472B, K=100packets, T=20usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0
+  Rmin-Rmax             :: 0.00-600.00Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+Receiving Fleet 3
+  Fleet Parameter(req)  :: R=300.00Mbps, L=1472B, K=100packets, T=40usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: :30:31:30:32:27:27: 0: 0:31:24:30
+  # of DS @ rcvr        :: :53:50:48:52:48:50: 0: 0:46:57:48
+  Fleet Parameter(act)  :: R=521.74Mbps, L=1472B, K=100packets, T=23usec
+  PCT metric/stream[12] :: 0.50:0.38:0.38:0.38:0.62:0.38:0.47:0.40:0.62:0.38:0.38:0.62:
+  PDT metric/stream[12] :: -0.09:-0.32:0.00:0.05:0.62:0.66:-0.25:0.13:0.74:-0.03:-0.07:0.44:
+  PCT Trend/stream [12] :: UNNNINNNINNI
+  PDT Trend/stream [12] :: NNNNIINNINNI
+  Trend per stream [12] :: NNNNIUNNINNI
+  Aggregate trend       :: NO TREND
+  Rmin-Rmax             :: 521.74-600.00Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+Receiving Fleet 4
+  Fleet Parameter(req)  :: R=560.76Mbps, L=1444B, K=100packets, T=21usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  Rmin-Rmax             :: 521.74-560.76Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+	*****  RESULT *****
+Receiver NIC has interrupt coalescence enabled
+Available bandwidth is greater than 521.74 (Mbps)
+Measurements finished at Wed Jul  5 16:10:39 2017 
+Measurement latency is 10.04 sec 

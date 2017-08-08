@@ -1,0 +1,52 @@
+
+
+
+
+Receiver ip-172-31-6-219 starts measurements at sender ec2-13-58-10-251.us-east-2.compute.amazonaws.com on Wed Jul  5 16:26:09 2017 
+  Maximum packet size          :: 1472 bytes
+  send latency @sndr           :: 1 usec
+  recv latency @rcvr           :: 0 usec
+  Minimum packet spacing       :: 7 usec
+  Max rate(max_pktsz/min_time) :: 1714.29Mbps
+  ADR [.]                      :: 4780.49Mbps
+  Grey bandwidth resolution    :: 12.00
+  Interrupt coalescion detected
+
+Receiving Fleet 0
+  Fleet Parameter(req)  :: R=857.14Mbps, L=1472B, K=100packets, T=14usec
+  Lossrate per stream   :: :14.0:0.0:0.0:0.0:0.0:0.0:0.0
+  Rmin-Rmax             :: 0.00-857.14Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+Receiving Fleet 1
+  Fleet Parameter(req)  :: R=428.57Mbps, L=1472B, K=100packets, T=28usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of DS @ rcvr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  Fleet Parameter(act)  :: R=545.45Mbps, L=1472B, K=100packets, T=22usec
+  PCT metric/stream[12] :: 0.31:0.64:0.80:0.50:0.47:0.40:0.40:0.25:0.22:0.38:0.43:0.27:
+  PDT metric/stream[12] :: -0.14:0.12:0.96:0.06:-0.12:0.00:-0.24:-0.88:-0.94:-0.55:0.03:-0.32:
+  PCT Trend/stream [12] :: NIIUNNNNNNNN
+  PDT Trend/stream [12] :: NNINNNNNNNNN
+  Trend per stream [12] :: NUINNNNNNNNN
+  Aggregate trend       :: NO TREND
+  Rmin-Rmax             :: 545.45-857.14Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+Receiving Fleet 2
+  Fleet Parameter(req)  :: R=705.88Mbps, L=1472B, K=100packets, T=17usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0
+
+Receiving Fleet 3
+  Fleet Parameter(req)  :: R=705.88Mbps, L=1472B, K=300packets, T=17usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:5.0:50.0
+  Fleet aborted due to high lossrate
+  Rmin-Rmax             :: 545.45-705.88Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+	*****  RESULT *****
+Receiver NIC has interrupt coalescence enabled
+Available bandwidth is greater than 545.45 (Mbps)
+Measurements finished at Wed Jul  5 16:26:18 2017 
+Measurement latency is 8.35 sec 

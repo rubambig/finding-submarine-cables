@@ -1,0 +1,98 @@
+
+
+
+
+Receiver ip-172-31-6-219 starts measurements at sender ec2-18-220-4-246.us-east-2.compute.amazonaws.com on Thu Jul  6 15:25:53 2017 
+  Maximum packet size          :: 1472 bytes
+  send latency @sndr           :: 1 usec
+  recv latency @rcvr           :: 0 usec
+  Minimum packet spacing       :: 7 usec
+  Max rate(max_pktsz/min_time) :: 1714.29Mbps
+  ADR [.]                      :: 503.42Mbps
+  Grey bandwidth resolution    :: 12.00
+
+Receiving Fleet 0
+  Fleet Parameter(req)  :: R=500.00Mbps, L=1472B, K=100packets, T=24usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: : 8: 4: 2: 8: 2: 4: 7: 1: 8: 6: 6
+  # of DS @ rcvr        :: :16: 6: 4:13: 5: 8:13: 6:15:11: 8
+  Fleet Parameter(act)  :: R=500.00Mbps, L=1472B, K=100packets, T=24usec
+  PCT metric/stream[12] :: 0.40:0.36:0.73:0.80:0.91:0.45:0.10:0.82:0.40:0.50:0.55:0.40:
+  PDT metric/stream[12] :: -0.34:0.23:0.96:0.92:1.00:-0.44:-0.88:0.96:-0.35:0.42:-0.12:-0.30:
+  PCT Trend/stream [12] :: NNIIINNINUUN
+  PDT Trend/stream [12] :: NNIIINNINUNN
+  Trend per stream [12] :: NNIIINNINUNN
+  Aggregate trend       :: GREY
+  Rmin-Rmax             :: 0.00-0.00Mbps
+  Gmin-Gmax             :: 500.00-500.00Mbps
+
+Receiving Fleet 1
+  Fleet Parameter(req)  :: R=750.00Mbps, L=1472B, K=100packets, T=16usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: : 1: 2: 8: 3: 5: 7: 3: 9: 4: 6: 6
+  # of DS @ rcvr        :: :11: 8:15: 5:11:13:10:25:12: 7:14
+  Fleet Parameter(act)  :: R=750.00Mbps, L=1472B, K=100packets, T=16usec
+  PCT metric/stream[12] :: 0.90:0.91:0.90:0.91:0.70:0.80:0.90:0.80:0.90:0.73:0.90:0.82:
+  PDT metric/stream[12] :: 1.00:1.00:1.00:1.00:0.92:0.93:1.00:0.92:1.00:0.93:1.00:0.94:
+  PCT Trend/stream [12] :: IIIIIIIIIIII
+  PDT Trend/stream [12] :: IIIIIIIIIIII
+  Trend per stream [12] :: IIIIIIIIIIII
+  Aggregate trend       :: INCREASING
+  Rmin-Rmax             :: 0.00-750.00Mbps
+  Gmin-Gmax             :: 500.00-500.00Mbps
+
+Receiving Fleet 2
+  Fleet Parameter(req)  :: R=631.58Mbps, L=1472B, K=100packets, T=19usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: : 7: 3: 3: 1: 9: 5: 4: 7: 8: 4: 9
+  # of DS @ rcvr        :: :22: 4: 7: 5:15: 9: 7:14:21: 6:17
+  Fleet Parameter(act)  :: R=631.58Mbps, L=1472B, K=100packets, T=19usec
+  PCT metric/stream[12] :: 0.30:0.91:0.27:0.36:0.30:0.60:0.55:0.50:0.90:0.91:0.90:0.80:
+  PDT metric/stream[12] :: -0.36:1.00:-0.34:-0.12:0.02:0.53:0.78:0.20:1.00:1.00:1.00:0.99:
+  PCT Trend/stream [12] :: NINNNUUUIIII
+  PDT Trend/stream [12] :: NINNNIINIIII
+  Trend per stream [12] :: NINNNIINIIII
+  Aggregate trend       :: GREY
+  Rmin-Rmax             :: 0.00-750.00Mbps
+  Gmin-Gmax             :: 500.00-631.58Mbps
+
+Receiving Fleet 3
+  Fleet Parameter(req)  :: R=705.88Mbps, L=1472B, K=100packets, T=17usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: : 2: 6: 4: 4: 7: 5: 4: 4:12: 2: 3
+  # of DS @ rcvr        :: :48:12: 5:13:11:11: 9: 8:33: 6: 6
+  Fleet Parameter(act)  :: R=705.88Mbps, L=1472B, K=100packets, T=17usec
+  PCT metric/stream[12] :: 0.88:0.60:0.91:0.90:0.50:0.90:0.70:0.55:0.89:0.73:0.91:0.91:
+  PDT metric/stream[12] :: 1.00:0.82:1.00:1.00:0.78:1.00:0.77:-0.12:1.00:0.81:1.00:1.00:
+  PCT Trend/stream [12] :: IUIIUIIUIIII
+  PDT Trend/stream [12] :: IIIIIIINIIII
+  Trend per stream [12] :: IIIIIIINIIII
+  Aggregate trend       :: INCREASING
+  Rmin-Rmax             :: 0.00-705.88Mbps
+  Gmin-Gmax             :: 500.00-631.58Mbps
+
+Receiving Fleet 4
+  Fleet Parameter(req)  :: R=666.67Mbps, L=1472B, K=100packets, T=18usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: : 4: 5: 4:10: 4: 3: 6: 5: 7: 4: 6
+  # of DS @ rcvr        :: :14:13: 8:13:10:10:10:12:13:11:10
+  Fleet Parameter(act)  :: R=666.67Mbps, L=1472B, K=100packets, T=18usec
+  PCT metric/stream[12] :: 0.40:0.60:0.09:0.20:0.30:0.10:0.40:0.40:0.50:0.40:0.40:0.20:
+  PDT metric/stream[12] :: 0.45:0.74:-0.83:-0.41:-0.63:-0.98:0.04:-0.17:-0.02:-0.39:-0.11:-0.39:
+  PCT Trend/stream [12] :: NUNNNNNNUNNN
+  PDT Trend/stream [12] :: IINNNNNNNNNN
+  Trend per stream [12] :: UINNNNNNNNNN
+  Aggregate trend       :: NO TREND
+  Rmin-Rmax             :: 666.67-705.88Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+	*****  RESULT *****
+User specified bandwidth resolution achieved
+Available bandwidth range : 666.67 - 705.88 (Mbps)
+Measurements finished at Thu Jul  6 15:26:08 2017 
+Measurement latency is 14.42 sec 

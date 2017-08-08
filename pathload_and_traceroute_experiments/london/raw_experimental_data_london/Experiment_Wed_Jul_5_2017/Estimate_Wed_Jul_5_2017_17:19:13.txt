@@ -1,0 +1,41 @@
+
+
+
+
+Receiver ip-172-31-6-219 starts measurements at sender ec2-13-58-10-251.us-east-2.compute.amazonaws.com on Wed Jul  5 17:19:13 2017 
+  Maximum packet size          :: 1472 bytes
+  send latency @sndr           :: 1 usec
+  recv latency @rcvr           :: 0 usec
+  Minimum packet spacing       :: 7 usec
+  Max rate(max_pktsz/min_time) :: 1714.29Mbps
+  ADR [.]                      :: 13363.64Mbps
+  Grey bandwidth resolution    :: 12.00
+  Interrupt coalescion detected
+
+Receiving Fleet 0
+  Fleet Parameter(req)  :: R=857.14Mbps, L=1472B, K=100packets, T=14usec
+  Lossrate per stream   :: :10.0:0.0:0.0:0.0:0.0
+  Rmin-Rmax             :: 0.00-857.14Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+Receiving Fleet 1
+  Fleet Parameter(req)  :: R=428.57Mbps, L=1472B, K=100packets, T=28usec
+  Lossrate per stream   :: :0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0:0.0
+  # of CS @ sndr        :: : 0: 0: 0: 0: 0: 0: 0: 0: 0: 0: 0
+  # of CS @ rcvr        :: : 0: 0: 0: 0:28: 0: 0: 0: 0: 0:28
+  # of DS @ rcvr        :: : 0: 0: 0: 0:61: 0: 0: 0: 0: 0:60
+  Fleet Parameter(act)  :: R=521.74Mbps, L=1472B, K=100packets, T=23usec
+  PCT metric/stream[11] :: 0.31:0.29:0.53:0.30:0.57:0.56:0.21:0.71:0.33:0.71:0.41:
+  PDT metric/stream[11] :: -0.32:-0.78:0.23:-0.53:0.64:0.49:-0.34:0.63:-0.32:0.99:-0.28:
+  PCT Trend/stream [11] :: NNUNUUNININ
+  PDT Trend/stream [11] :: NNNNIINININ
+  Trend per stream [11] :: NNNNIINININ
+  Aggregate trend       :: NO TREND
+  Rmin-Rmax             :: 521.74-857.14Mbps
+  Gmin-Gmax             :: 0.00-0.00Mbps
+
+	*****  RESULT *****
+Receiver NIC has interrupt coalescence enabled
+Available bandwidth is greater than 521.74 (Mbps)
+Measurements finished at Wed Jul  5 17:19:18 2017 
+Measurement latency is 4.50 sec 
