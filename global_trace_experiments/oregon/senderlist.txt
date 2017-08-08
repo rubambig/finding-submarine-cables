@@ -1,0 +1,8 @@
+Fri Jul_21 ec2-34-212-244-73.us-west-2.compute.amazonaws.com,34.212.244.73
+Tue Jul_25 ec2-34-213-69-133.us-west-2.compute.amazonaws.com,34.213.69.133
+Wed Jul-26 ec2-34-213-86-54.us-west-2.compute.amazonaws.com,34.213.86.54
+Thu Jul_27 ec2-52-39-225-56.us-west-2.compute.amazonaws.com,52.39.225.56
+Fri Jul_28 ec2-52-38-57-216.us-west-2.compute.amazonaws.com,52.38.57.216
+Tue Aug_1 ec2-54-187-25-77.us-west-2.compute.amazonaws.com,54.187.25.77
+Wed Aug_2 ec2-54-187-25-77.us-west-2.compute.amazonaws.com,54.187.25.77
+
